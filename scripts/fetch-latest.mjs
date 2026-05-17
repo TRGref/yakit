@@ -62,9 +62,11 @@ for (const city of requestedCities) {
         stations
       });
       savedForCity++;
+
+      console.log(`  ${cityKey}: ${formatStationsForLog(stations)}`);
     }
 
-    console.log(`Saved ${city}: ${savedForCity} row(s)`);
+    console.log(`Saved ${city}: ${savedForCity} city result(s)`);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     console.warn(`Failed ${city}: ${message}`);
@@ -164,6 +166,17 @@ function numberOrNull(value) {
 
 function hasAnyPrice(station) {
   return station && Object.values(station).some((value) => value !== null);
+}
+
+function formatStationsForLog(stations) {
+  return STATIONS.map((station) => {
+    const prices = stations[station] || {};
+    return `${station} ${formatPriceForLog(prices.benzin)}/${formatPriceForLog(prices.dizel)}/${formatPriceForLog(prices.lpg)}`;
+  }).join(' | ');
+}
+
+function formatPriceForLog(value) {
+  return value === null || value === undefined ? '-' : String(value);
 }
 
 function delay(ms) {
