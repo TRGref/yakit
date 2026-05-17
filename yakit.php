@@ -389,6 +389,21 @@ function httpRequest(string $url, array $headers = [], ?string $postBody = null)
 
 function shellRequest(string $url, ?array $postFields, string $cookieFile, string $label = 'Shell request'): string
 {
+    $headers = [
+        'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+        'Cache-Control: no-cache',
+        'Origin: https://www.turkiyeshell.com',
+        'Pragma: no-cache',
+        'Referer: https://www.turkiyeshell.com/pompatest/',
+        'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    ];
+
+    if ($postFields !== null) {
+        $headers[] = 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8';
+        $headers[] = 'X-Requested-With: XMLHttpRequest';
+    }
+
     $ch = curl_init($url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
@@ -397,12 +412,7 @@ function shellRequest(string $url, ?array $postFields, string $cookieFile, strin
         CURLOPT_CONNECTTIMEOUT => 10,
         CURLOPT_COOKIEJAR => $cookieFile,
         CURLOPT_COOKIEFILE => $cookieFile,
-        CURLOPT_HTTPHEADER => [
-            'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language: tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-            'Referer: https://www.turkiyeshell.com/pompatest/',
-            'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        ],
+        CURLOPT_HTTPHEADER => $headers,
     ]);
 
     if ($postFields !== null) {
@@ -423,6 +433,10 @@ function shellRequest(string $url, ?array $postFields, string $cookieFile, strin
         $error !== '' ? $error : '-'
     ));
 
+    if (($body === false || $status >= 400) && $body !== false && (string)$body !== '') {
+        shellDebug($label . ' body preview=' . shellBodyPreview((string)$body));
+    }
+
     return ($body !== false && $status < 400) ? (string)$body : '';
 }
 
@@ -431,6 +445,18 @@ function shellDebug(string $message): void
     if (defined('STDERR')) {
         fwrite(STDERR, "[debug] {$message}\n");
     }
+}
+
+function shellBodyPreview(string $body): string
+{
+    $body = preg_replace('/\s+/', ' ', strip_tags($body)) ?? $body;
+    $body = trim($body);
+
+    if (function_exists('mb_substr')) {
+        return mb_substr($body, 0, 300, 'UTF-8');
+    }
+
+    return substr($body, 0, 300);
 }
 
 function hiddenValue(string $html, string $name): string
