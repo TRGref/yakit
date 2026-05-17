@@ -111,11 +111,13 @@ if (payload.cities.length === 0) {
 
 async function fetchCity(city) {
   try {
-    const { stdout } = await execFileAsync(PHP_BIN, [LOCAL_API_FILE, city], {
+    const { stdout, stderr } = await execFileAsync(PHP_BIN, [LOCAL_API_FILE, city], {
       timeout: REQUEST_TIMEOUT_MS,
       maxBuffer: 1024 * 1024 * 10,
       windowsHide: true
     });
+
+    writePhpDebug(stderr);
 
     const data = JSON.parse(stdout);
 
@@ -129,6 +131,8 @@ async function fetchCity(city) {
 
     return data;
   } catch (error) {
+    writePhpDebug(error?.stderr);
+
     if (error instanceof SyntaxError) {
       throw new Error('Local PHP output is not valid JSON');
     }
@@ -177,6 +181,14 @@ function formatStationsForLog(stations) {
 
 function formatPriceForLog(value) {
   return value === null || value === undefined ? '-' : String(value);
+}
+
+function writePhpDebug(stderr) {
+  const output = typeof stderr === 'string' ? stderr.trim() : '';
+
+  if (output !== '') {
+    console.warn(output);
+  }
 }
 
 function delay(ms) {
