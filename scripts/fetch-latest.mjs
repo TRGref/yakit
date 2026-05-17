@@ -41,7 +41,9 @@ const cityMap = new Map();
 
 for (const city of requestedCities) {
   try {
+    console.log(`Fetching ${city}...`);
     const rows = await fetchCity(city);
+    let savedForCity = 0;
 
     for (const row of rows) {
       if (!row || typeof row !== 'object' || !row.il) {
@@ -59,11 +61,16 @@ for (const city of requestedCities) {
         il: cityKey,
         stations
       });
+      savedForCity++;
     }
+
+    console.log(`Saved ${city}: ${savedForCity} row(s)`);
   } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`Failed ${city}: ${message}`);
     errors.push({
       city,
-      message: error instanceof Error ? error.message : String(error)
+      message
     });
   }
 
