@@ -234,7 +234,7 @@ function fetchShellProvinceRows(string $baseUrl, string $cookieFile, array $hidd
 
     $xpath = new DOMXPath($dom);
     $rows = [];
-    foreach ($xpath->query('//tr[contains(@class, "dxgvDataRow")]') as $row) {
+    foreach ($xpath->query('//tr[contains(@class, "dxgvDataRow") or count(./td) >= 8]') as $row) {
         $values = [];
         foreach ($xpath->query('./td', $row) as $cell) {
             $values[] = cleanText($cell->textContent);
@@ -245,6 +245,9 @@ function fetchShellProvinceRows(string $baseUrl, string $cookieFile, array $hidd
     }
 
     shellDebug("Shell callback rows for {$provinceCode}: " . count($rows));
+    if (!$rows) {
+        shellDebug("Shell callback html preview for {$provinceCode}: " . shellBodyPreview($html !== '' ? $html : $callback));
+    }
 
     return $rows;
 }
@@ -471,10 +474,14 @@ function hiddenValue(string $html, string $name): string
 function shellCallbackHtml(string $body): string
 {
     if (!preg_match("/'result':'((?:\\\\.|[^'])*)'/s", $body, $match)) {
+        shellDebug('Shell callback result field missing. Body preview=' . shellBodyPreview($body));
         return '';
     }
 
-    return str_replace('\\/', '/', stripcslashes($match[1]));
+    $html = str_replace('\\/', '/', stripcslashes($match[1]));
+    shellDebug('Shell callback html bytes=' . strlen($html));
+
+    return $html;
 }
 
 function aygazCityId(array $row): ?string
