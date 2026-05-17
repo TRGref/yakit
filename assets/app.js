@@ -11,8 +11,6 @@ const state = {
   station: 'all'
 };
 
-const DATA_URL = window.YAKIT_DATA_URL || 'data/latest.json';
-
 const elements = {
   statusText: document.querySelector('#statusText'),
   citySearch: document.querySelector('#citySearch'),
@@ -48,13 +46,7 @@ loadData();
 
 async function loadData() {
   try {
-    const response = await fetch(noCacheUrl(DATA_URL), {
-      cache: 'no-store',
-      headers: {
-        pragma: 'no-cache',
-        'cache-control': 'no-cache'
-      }
-    });
+    const response = await fetch('data/latest.json', { cache: 'no-store' });
 
     if (!response.ok) {
       throw new Error(`JSON okunamadi: HTTP ${response.status}`);
@@ -67,12 +59,6 @@ async function loadData() {
     elements.errorBox.hidden = false;
     elements.errorBox.textContent = error instanceof Error ? error.message : String(error);
   }
-}
-
-function noCacheUrl(url) {
-  const parsed = new URL(url, window.location.href);
-  parsed.searchParams.set('_', Date.now().toString());
-  return parsed.toString();
 }
 
 function render() {
