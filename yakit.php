@@ -180,12 +180,17 @@ function fetchShell(?string $wanted): array
     }
 
     try {
-        $firstPage = shellRequest($baseUrl, null, $cookieFile);
+        $firstPage = shellRequest($baseUrl, null, $cookieFile, 'Shell first page');
         $hidden = [
             '__VIEWSTATE' => hiddenValue($firstPage, '__VIEWSTATE'),
             '__VIEWSTATEGENERATOR' => hiddenValue($firstPage, '__VIEWSTATEGENERATOR'),
             '__EVENTVALIDATION' => hiddenValue($firstPage, '__EVENTVALIDATION'),
         ];
+        shellDebug('Shell hidden fields: ' . json_encode([
+            '__VIEWSTATE' => $hidden['__VIEWSTATE'] !== '',
+            '__VIEWSTATEGENERATOR' => $hidden['__VIEWSTATEGENERATOR'] !== '',
+            '__EVENTVALIDATION' => $hidden['__EVENTVALIDATION'] !== '',
+        ], JSON_UNESCAPED_SLASHES));
 
         $rows = [];
         foreach ($provinceCodes as $provinceName => $provinceCode) {
@@ -219,7 +224,7 @@ function fetchShellProvinceRows(string $baseUrl, string $cookieFile, array $hidd
         '__CALLBACKPARAM' => 'c0:' . json_encode($action, JSON_UNESCAPED_SLASHES),
     ];
 
-    $callback = shellRequest($baseUrl, $postFields, $cookieFile);
+    $callback = shellRequest($baseUrl, $postFields, $cookieFile, 'Shell callback ' . $provinceCode);
     $html = shellCallbackHtml($callback);
 
     $dom = new DOMDocument();
@@ -238,6 +243,8 @@ function fetchShellProvinceRows(string $baseUrl, string $cookieFile, array $hidd
             $rows[] = $values;
         }
     }
+
+    shellDebug("Shell callback rows for {$provinceCode}: " . count($rows));
 
     return $rows;
 }
@@ -380,7 +387,7 @@ function httpRequest(string $url, array $headers = [], ?string $postBody = null)
     return ($body !== false && $status < 400) ? (string)$body : '';
 }
 
-function shellRequest(string $url, ?array $postFields, string $cookieFile): string
+function shellRequest(string $url, ?array $postFields, string $cookieFile, string $label = 'Shell request'): string
 {
     $ch = curl_init($url);
     curl_setopt_array($ch, [
@@ -405,9 +412,25 @@ function shellRequest(string $url, ?array $postFields, string $cookieFile): stri
 
     $body = curl_exec($ch);
     $status = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+    $error = curl_error($ch);
     curl_close($ch);
 
+    shellDebug(sprintf(
+        '%s status=%s bytes=%s error=%s',
+        $label,
+        $status ?: 'n/a',
+        $body === false ? 0 : strlen((string)$body),
+        $error !== '' ? $error : '-'
+    ));
+
     return ($body !== false && $status < 400) ? (string)$body : '';
+}
+
+function shellDebug(string $message): void
+{
+    if (defined('STDERR')) {
+        fwrite(STDERR, "[debug] {$message}\n");
+    }
 }
 
 function hiddenValue(string $html, string $name): string
