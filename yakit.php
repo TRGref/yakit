@@ -473,15 +473,56 @@ function hiddenValue(string $html, string $name): string
 
 function shellCallbackHtml(string $body): string
 {
-    if (!preg_match("/'result':'((?:\\\\.|[^'])*)'/s", $body, $match)) {
+    $start = strpos($body, "'result':'");
+    if ($start === false) {
         shellDebug('Shell callback result field missing. Body preview=' . shellBodyPreview($body));
         return '';
     }
 
-    $html = str_replace('\\/', '/', stripcslashes($match[1]));
+    $value = readSingleQuotedJsValue($body, $start + strlen("'result':'"));
+    if ($value === '') {
+        shellDebug('Shell callback result field empty. Body preview=' . shellBodyPreview($body));
+        return '';
+    }
+
+    $html = str_replace('\\/', '/', stripcslashes($value));
     shellDebug('Shell callback html bytes=' . strlen($html));
 
     return $html;
+}
+
+function readSingleQuotedJsValue(string $text, int $offset): string
+{
+    $value = '';
+    $length = strlen($text);
+    $escaped = false;
+
+    for ($i = $offset; $i < $length; $i++) {
+        $char = $text[$i];
+
+        if ($escaped) {
+            $value .= '\\' . $char;
+            $escaped = false;
+            continue;
+        }
+
+        if ($char === '\\') {
+            $escaped = true;
+            continue;
+        }
+
+        if ($char === "'") {
+            break;
+        }
+
+        $value .= $char;
+    }
+
+    if ($escaped) {
+        $value .= '\\';
+    }
+
+    return $value;
 }
 
 function aygazCityId(array $row): ?string
