@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "source": "yakit.php",
+  "fetched_at": null,
+  "price_date": null,
+  "summary": {
+    "cities_requested": 0,
+    "cities_saved": 0,
+    "station_rows_saved": 0,
+    "errors": []
+  },
+  "cities": []
+}

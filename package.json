@@ -1,0 +1,13 @@
+{
+  "name": "yakit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update-data": "node scripts/fetch-latest.mjs",
+    "check": "node --check scripts/fetch-latest.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

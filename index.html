@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yakit Fiyatlari</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div>
+        <h1>Yakit Fiyatlari</h1>
+        <p id="statusText">Veriler yukleniyor...</p>
+      </div>
+      <a class="jsonLink" href="data/latest.json">JSON</a>
+    </header>
+
+    <section class="controls" aria-label="Filtreler">
+      <label>
+        Il ara
+        <input id="citySearch" type="search" placeholder="ankara, izmir, istanbul">
+      </label>
+
+      <label>
+        Istasyon
+        <select id="stationFilter">
+          <option value="all">Tum istasyonlar</option>
+          <option value="opet">Opet</option>
+          <option value="shell">Shell</option>
+          <option value="po">Petrol Ofisi</option>
+          <option value="aytemiz">Aytemiz</option>
+        </select>
+      </label>
+
+      <button id="clearFilters" type="button">Temizle</button>
+    </section>
+
+    <section class="summary" aria-label="Ozet">
+      <div>
+        <strong id="cityCount">0</strong>
+        <span>Il / bolge</span>
+      </div>
+      <div>
+        <strong id="stationCount">0</strong>
+        <span>Istasyon kaydi</span>
+      </div>
+      <div>
+        <strong id="errorCount">0</strong>
+        <span>Hata</span>
+      </div>
+    </section>
+
+    <section id="errorBox" class="notice" hidden></section>
+    <section id="emptyBox" class="notice" hidden>Bu filtreyle kayit bulunamadi.</section>
+    <section id="cityGrid" class="cityGrid" aria-live="polite"></section>
+  </main>
+</body>
+</html>
