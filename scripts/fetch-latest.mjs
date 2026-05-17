@@ -9,7 +9,7 @@ const PHP_BIN = process.env.PHP_BIN || 'php';
 const LOCAL_API_FILE = process.env.FUEL_PHP_FILE || 'yakit.php';
 const OUT_FILE = process.env.FUEL_OUT_FILE || 'data/latest.json';
 const REQUEST_DELAY_MS = Number(process.env.FUEL_REQUEST_DELAY_MS || 200);
-const REQUEST_TIMEOUT_MS = Number(process.env.FUEL_REQUEST_TIMEOUT_MS || 120000);
+const REQUEST_TIMEOUT_MS = Number(process.env.FUEL_REQUEST_TIMEOUT_MS || 300000);
 
 const DEFAULT_CITIES = [
   'adana', 'adiyaman', 'afyonkarahisar', 'agri', 'aksaray', 'amasya', 'ankara', 'antalya',
@@ -39,44 +39,25 @@ const priceDate = fetchedAt.slice(0, 10);
 const errors = [];
 const cityMap = new Map();
 
-for (const city of requestedCities) {
+if (cities.length > 0) {
+  for (const city of requestedCities) {
+    await fetchAndSaveCity(city);
+    await delay(REQUEST_DELAY_MS);
+  }
+} else {
   try {
-    console.log(`Fetching ${city}...`);
-    const rows = await fetchCity(city);
-    let savedForCity = 0;
-
-    for (const row of rows) {
-      if (!row || typeof row !== 'object' || !row.il) {
-        continue;
-      }
-
-      const cityKey = String(row.il);
-      const stations = {};
-
-      for (const station of STATIONS) {
-        stations[station] = normalizeStation(row[station]);
-      }
-
-      cityMap.set(cityKey, {
-        il: cityKey,
-        stations
-      });
-      savedForCity++;
-
-      console.log(`  ${cityKey}: ${formatStationsForLog(stations)}`);
-    }
-
-    console.log(`Saved ${city}: ${savedForCity} city result(s)`);
+    console.log('Fetching all cities in one PHP run...');
+    const rows = await fetchPhp(['--all']);
+    saveRows(rows);
+    console.log(`Saved all cities: ${cityMap.size} city result(s)`);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    console.warn(`Failed ${city}: ${message}`);
+    console.warn(`Failed all cities: ${message}`);
     errors.push({
-      city,
+      city: 'all',
       message
     });
   }
-
-  await delay(REQUEST_DELAY_MS);
 }
 
 const payload = {
@@ -109,9 +90,26 @@ if (payload.cities.length === 0) {
   process.exitCode = 1;
 }
 
-async function fetchCity(city) {
+async function fetchAndSaveCity(city) {
   try {
-    const { stdout, stderr } = await execFileAsync(PHP_BIN, [LOCAL_API_FILE, city], {
+    console.log(`Fetching ${city}...`);
+    const rows = await fetchPhp([city]);
+    const before = cityMap.size;
+    saveRows(rows);
+    console.log(`Saved ${city}: ${cityMap.size - before} city result(s)`);
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    console.warn(`Failed ${city}: ${message}`);
+    errors.push({
+      city,
+      message
+    });
+  }
+}
+
+async function fetchPhp(args) {
+  try {
+    const { stdout, stderr } = await execFileAsync(PHP_BIN, [LOCAL_API_FILE, ...args], {
       timeout: REQUEST_TIMEOUT_MS,
       maxBuffer: 1024 * 1024 * 10,
       windowsHide: true
@@ -138,6 +136,28 @@ async function fetchCity(city) {
     }
 
     throw error;
+  }
+}
+
+function saveRows(rows) {
+  for (const row of rows) {
+    if (!row || typeof row !== 'object' || !row.il) {
+      continue;
+    }
+
+    const cityKey = String(row.il);
+    const stations = {};
+
+    for (const station of STATIONS) {
+      stations[station] = normalizeStation(row[station]);
+    }
+
+    cityMap.set(cityKey, {
+      il: cityKey,
+      stations
+    });
+
+    console.log(`  ${cityKey}: ${formatStationsForLog(stations)}`);
   }
 }
 

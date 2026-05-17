@@ -2,17 +2,18 @@
 declare(strict_types=1);
 
 // Usage:
-//   php yakit.php
+//   php yakit.php --all
 //   php yakit.php ANKARA
-//   https://localhost/yakit.php
+//   https://localhost/yakit.php?all=1
 //   https://localhost/yakit.php?il=ANKARA
 
 $provinceFilter = $_GET['il'] ?? $argv[1] ?? null;
-if ($provinceFilter === null || trim((string)$provinceFilter) === '') {
+$fetchAll = isset($_GET['all']) || $provinceFilter === '--all' || $provinceFilter === 'all';
+if (!$fetchAll && ($provinceFilter === null || trim((string)$provinceFilter) === '')) {
     showUsage();
 }
 
-$wanted = normalizeKey((string)$provinceFilter);
+$wanted = $fetchAll ? null : normalizeKey((string)$provinceFilter);
 
 $po = fetchPo($wanted);
 $aytemiz = fetchAytemiz($wanted);
@@ -24,7 +25,7 @@ sort($keys, SORT_STRING);
 
 $rows = [];
 foreach ($keys as $key) {
-    if (!provinceMatches($key, $wanted)) {
+    if ($wanted !== null && !provinceMatches($key, $wanted)) {
         continue;
     }
 
@@ -287,8 +288,12 @@ function shellForKey(array $shell, string $key): array
     return emptyStation();
 }
 
-function provinceMatches(string $key, string $wanted): bool
+function provinceMatches(string $key, ?string $wanted): bool
 {
+    if ($wanted === null) {
+        return true;
+    }
+
     if ($key === $wanted) {
         return true;
     }
@@ -624,12 +629,14 @@ function showUsage(): void
 {
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode([
-        'message' => 'Kullanim: yakit.php?il=ANKARA veya CLI: php yakit.php ANKARA',
+        'message' => 'Kullanim: yakit.php?all=1, yakit.php?il=ANKARA, CLI: php yakit.php --all veya php yakit.php ANKARA',
         'examples' => [
+            'yakit.php?all=1',
             'yakit.php?il=ankara',
             'yakit.php?il=istanbul',
             'yakit.php?il=istanbul-anadolu',
             'yakit.php?il=istanbul-avrupa',
+            'php yakit.php --all',
         ],
         'cities' => array_merge(array_keys(shellProvinceCodes()), [
             'ISTANBUL ANADOLU',
