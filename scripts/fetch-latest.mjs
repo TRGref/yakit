@@ -9,7 +9,7 @@ const PHP_BIN = process.env.PHP_BIN || 'php';
 const LOCAL_API_FILE = process.env.FUEL_PHP_FILE || 'yakit.php';
 const OUT_FILE = process.env.FUEL_OUT_FILE || 'data/latest.json';
 const REQUEST_DELAY_MS = Number(process.env.FUEL_REQUEST_DELAY_MS || 200);
-const REQUEST_TIMEOUT_MS = Number(process.env.FUEL_REQUEST_TIMEOUT_MS || 300000);
+const REQUEST_TIMEOUT_MS = Number(process.env.FUEL_REQUEST_TIMEOUT_MS || 600000);
 
 const DEFAULT_CITIES = [
   'adana', 'adiyaman', 'afyonkarahisar', 'agri', 'aksaray', 'amasya', 'ankara', 'antalya',
