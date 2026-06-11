@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source": "yakit.php",
-  "fetched_at": "2026-06-09T06:57:55.330Z",
-  "price_date": "2026-06-09",
+  "fetched_at": "2026-06-11T08:15:52.341Z",
+  "price_date": "2026-06-11",
   "summary": {
     "cities_requested": 82,
     "cities_saved": 82,
@@ -19,13 +19,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.76,
-          "dizel": 68.27,
+          "benzin": 64.85,
+          "dizel": 68.35,
           "lpg": 32.78
         },
         "po": {
-          "benzin": 64.77,
-          "dizel": 68.29,
+          "benzin": 64.84,
+          "dizel": 68.36,
           "lpg": 32.31
         },
         "aytemiz": {
@@ -44,13 +44,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.08,
-          "dizel": 68.62,
+          "benzin": 65.17,
+          "dizel": 68.7,
           "lpg": 33.2
         },
         "po": {
-          "benzin": 65.11,
-          "dizel": 68.64,
+          "benzin": 65.17,
+          "dizel": 68.7,
           "lpg": 32.44
         },
         "aytemiz": {
@@ -69,13 +69,13 @@
           "lpg": 33.69
         },
         "shell": {
-          "benzin": 65.05,
-          "dizel": 68.67,
+          "benzin": 65.14,
+          "dizel": 68.75,
           "lpg": 34.52
         },
         "po": {
-          "benzin": 65.07,
-          "dizel": 68.69,
+          "benzin": 65.14,
+          "dizel": 68.75,
           "lpg": 31.84
         },
         "aytemiz": {
@@ -94,13 +94,13 @@
           "lpg": 35.49
         },
         "shell": {
-          "benzin": 65.47,
-          "dizel": 68.98,
+          "benzin": 65.56,
+          "dizel": 69.06,
           "lpg": 36.91
         },
         "po": {
-          "benzin": 65.5,
-          "dizel": 69.02,
+          "benzin": 65.57,
+          "dizel": 69.08,
           "lpg": 33.19
         },
         "aytemiz": {
@@ -119,13 +119,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.83,
-          "dizel": 68.35,
+          "benzin": 64.92,
+          "dizel": 68.43,
           "lpg": 33.59
         },
         "po": {
-          "benzin": 64.84,
-          "dizel": 68.36,
+          "benzin": 64.91,
+          "dizel": 68.43,
           "lpg": 31.81
         },
         "aytemiz": {
@@ -144,13 +144,13 @@
           "lpg": 34.39
         },
         "shell": {
-          "benzin": 64.5,
-          "dizel": 68,
+          "benzin": 64.59,
+          "dizel": 68.08,
           "lpg": 33.64
         },
         "po": {
-          "benzin": 64.52,
-          "dizel": 68.02,
+          "benzin": 64.58,
+          "dizel": 68.08,
           "lpg": 32.59
         },
         "aytemiz": {
@@ -169,13 +169,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 63.91,
-          "dizel": 67.43,
+          "benzin": 64,
+          "dizel": 67.51,
           "lpg": 33.67
         },
         "po": {
-          "benzin": 63.92,
-          "dizel": 67.45,
+          "benzin": 63.99,
+          "dizel": 67.51,
           "lpg": 31.97
         },
         "aytemiz": {
@@ -194,13 +194,13 @@
           "lpg": 33.89
         },
         "shell": {
-          "benzin": 65.15,
-          "dizel": 68.76,
+          "benzin": 65.24,
+          "dizel": 68.84,
           "lpg": 34.24
         },
         "po": {
-          "benzin": 65.16,
-          "dizel": 68.77,
+          "benzin": 65.24,
+          "dizel": 68.84,
           "lpg": 32.04
         },
         "aytemiz": {
@@ -219,13 +219,13 @@
           "lpg": 35.39
         },
         "shell": {
-          "benzin": 64.97,
-          "dizel": 68.5,
+          "benzin": 65.06,
+          "dizel": 68.58,
           "lpg": 36.67
         },
         "po": {
-          "benzin": 65,
-          "dizel": 68.52,
+          "benzin": 65.07,
+          "dizel": 68.58,
           "lpg": 32.89
         },
         "aytemiz": {
@@ -244,13 +244,13 @@
           "lpg": 35.09
         },
         "shell": {
-          "benzin": 64.8,
-          "dizel": 68.3,
+          "benzin": 64.89,
+          "dizel": 68.38,
           "lpg": 34.78
         },
         "po": {
-          "benzin": 64.79,
-          "dizel": 68.31,
+          "benzin": 64.86,
+          "dizel": 68.37,
           "lpg": 33.44
         },
         "aytemiz": {
@@ -269,13 +269,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.42,
-          "dizel": 67.94,
+          "benzin": 64.51,
+          "dizel": 68.02,
           "lpg": 32.81
         },
         "po": {
-          "benzin": 64.44,
-          "dizel": 67.96,
+          "benzin": 64.51,
+          "dizel": 68.02,
           "lpg": 31.94
         },
         "aytemiz": {
@@ -294,13 +294,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.51,
-          "dizel": 68.03,
+          "benzin": 64.6,
+          "dizel": 68.11,
           "lpg": 33.01
         },
         "po": {
-          "benzin": 64.53,
-          "dizel": 68.05,
+          "benzin": 64.6,
+          "dizel": 68.11,
           "lpg": 31.49
         },
         "aytemiz": {
@@ -319,13 +319,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.23,
-          "dizel": 67.56,
+          "benzin": 64.32,
+          "dizel": 67.64,
           "lpg": 33.32
         },
         "po": {
-          "benzin": 64.25,
-          "dizel": 67.57,
+          "benzin": 64.32,
+          "dizel": 67.63,
           "lpg": 31.65
         },
         "aytemiz": {
@@ -344,13 +344,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.38,
-          "dizel": 69,
+          "benzin": 65.47,
+          "dizel": 69.08,
           "lpg": 34.52
         },
         "po": {
-          "benzin": 65.38,
-          "dizel": 69.02,
+          "benzin": 65.45,
+          "dizel": 69.08,
           "lpg": 32.54
         },
         "aytemiz": {
@@ -369,13 +369,13 @@
           "lpg": 34.69
         },
         "shell": {
-          "benzin": 64.68,
-          "dizel": 68.19,
+          "benzin": 64.77,
+          "dizel": 68.27,
           "lpg": 34.4
         },
         "po": {
-          "benzin": 64.69,
-          "dizel": 68.21,
+          "benzin": 64.76,
+          "dizel": 68.27,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -394,13 +394,13 @@
           "lpg": 32.99
         },
         "shell": {
-          "benzin": 63.87,
-          "dizel": 67.18,
+          "benzin": 63.96,
+          "dizel": 67.26,
           "lpg": 33.28
         },
         "po": {
-          "benzin": 63.88,
-          "dizel": 67.2,
+          "benzin": 63.95,
+          "dizel": 67.26,
           "lpg": 31.39
         },
         "aytemiz": {
@@ -419,13 +419,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.51,
-          "dizel": 69.14,
+          "benzin": 65.6,
+          "dizel": 69.22,
           "lpg": 35.94
         },
         "po": {
-          "benzin": 65.53,
-          "dizel": 69.17,
+          "benzin": 65.59,
+          "dizel": 69.22,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -444,13 +444,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.51,
-          "dizel": 69.17,
+          "benzin": 65.6,
+          "dizel": 69.25,
           "lpg": 35.91
         },
         "po": {
-          "benzin": 65.53,
-          "dizel": 69.17,
+          "benzin": 65.59,
+          "dizel": 69.22,
           "lpg": 32.61
         },
         "aytemiz": {
@@ -469,13 +469,13 @@
           "lpg": 33.29
         },
         "shell": {
-          "benzin": 63.99,
-          "dizel": 67.28,
+          "benzin": 64.08,
+          "dizel": 67.36,
           "lpg": 32.8
         },
         "po": {
-          "benzin": 64,
-          "dizel": 67.31,
+          "benzin": 64.07,
+          "dizel": 67.37,
           "lpg": 31.8
         },
         "aytemiz": {
@@ -494,13 +494,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.97,
-          "dizel": 68.59,
+          "benzin": 65.06,
+          "dizel": 68.67,
           "lpg": 33.87
         },
         "po": {
-          "benzin": 64.99,
-          "dizel": 68.61,
+          "benzin": 65.06,
+          "dizel": 68.67,
           "lpg": 31.99
         },
         "aytemiz": {
@@ -519,13 +519,13 @@
           "lpg": 33.59
         },
         "shell": {
-          "benzin": 63.99,
-          "dizel": 67.31,
+          "benzin": 64.08,
+          "dizel": 67.39,
           "lpg": 33.12
         },
         "po": {
-          "benzin": 64.01,
-          "dizel": 67.33,
+          "benzin": 64.08,
+          "dizel": 67.39,
           "lpg": 31.39
         },
         "aytemiz": {
@@ -544,13 +544,13 @@
           "lpg": 32.99
         },
         "shell": {
-          "benzin": 64.56,
-          "dizel": 68.06,
+          "benzin": 64.65,
+          "dizel": 68.14,
           "lpg": 33.21
         },
         "po": {
-          "benzin": 64.57,
-          "dizel": 68.09,
+          "benzin": 64.64,
+          "dizel": 68.15,
           "lpg": 31.59
         },
         "aytemiz": {
@@ -569,13 +569,13 @@
           "lpg": 34.29
         },
         "shell": {
-          "benzin": 64.33,
-          "dizel": 67.84,
+          "benzin": 64.42,
+          "dizel": 67.92,
           "lpg": 33.72
         },
         "po": {
-          "benzin": 64.34,
-          "dizel": 67.85,
+          "benzin": 64.41,
+          "dizel": 67.92,
           "lpg": 32.2
         },
         "aytemiz": {
@@ -594,13 +594,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.51,
-          "dizel": 68.01,
+          "benzin": 64.6,
+          "dizel": 68.09,
           "lpg": 34.2
         },
         "po": {
-          "benzin": 64.52,
-          "dizel": 68.03,
+          "benzin": 64.59,
+          "dizel": 68.1,
           "lpg": 32.14
         },
         "aytemiz": {
@@ -619,13 +619,13 @@
           "lpg": 33.79
         },
         "shell": {
-          "benzin": 64.68,
-          "dizel": 68.21,
+          "benzin": 64.77,
+          "dizel": 68.29,
           "lpg": 33.28
         },
         "po": {
-          "benzin": 64.71,
-          "dizel": 68.23,
+          "benzin": 64.78,
+          "dizel": 68.29,
           "lpg": 31.69
         },
         "aytemiz": {
@@ -644,13 +644,13 @@
           "lpg": 33.79
         },
         "shell": {
-          "benzin": 65.38,
-          "dizel": 69.01,
+          "benzin": 65.47,
+          "dizel": 69.09,
           "lpg": 34.38
         },
         "po": {
-          "benzin": 65.39,
-          "dizel": 69.03,
+          "benzin": 65.46,
+          "dizel": 69.09,
           "lpg": 32.66
         },
         "aytemiz": {
@@ -669,13 +669,13 @@
           "lpg": 33.59
         },
         "shell": {
-          "benzin": 63.83,
-          "dizel": 67.13,
+          "benzin": 63.92,
+          "dizel": 67.21,
           "lpg": 32.31
         },
         "po": {
-          "benzin": 63.83,
-          "dizel": 67.15,
+          "benzin": 63.9,
+          "dizel": 67.21,
           "lpg": 31.65
         },
         "aytemiz": {
@@ -694,13 +694,13 @@
           "lpg": 34.19
         },
         "shell": {
-          "benzin": 64.04,
-          "dizel": 67.58,
+          "benzin": 64.13,
+          "dizel": 67.66,
           "lpg": 33.34
         },
         "po": {
-          "benzin": 64.05,
-          "dizel": 67.6,
+          "benzin": 64.12,
+          "dizel": 67.65,
           "lpg": 32.09
         },
         "aytemiz": {
@@ -719,13 +719,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.52,
-          "dizel": 69.13,
+          "benzin": 65.61,
+          "dizel": 69.21,
           "lpg": 34.51
         },
         "po": {
-          "benzin": 65.52,
-          "dizel": 69.16,
+          "benzin": 65.58,
+          "dizel": 69.21,
           "lpg": 32.41
         },
         "aytemiz": {
@@ -744,13 +744,13 @@
           "lpg": 34.49
         },
         "shell": {
-          "benzin": 64.92,
-          "dizel": 68.44,
+          "benzin": 65.01,
+          "dizel": 68.52,
           "lpg": 35.7
         },
         "po": {
-          "benzin": 64.94,
-          "dizel": 68.46,
+          "benzin": 65.01,
+          "dizel": 68.52,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -769,13 +769,13 @@
           "lpg": 34.59
         },
         "shell": {
-          "benzin": 64.97,
-          "dizel": 68.51,
+          "benzin": 65.06,
+          "dizel": 68.59,
           "lpg": 35.94
         },
         "po": {
-          "benzin": 65,
-          "dizel": 68.52,
+          "benzin": 65.07,
+          "dizel": 68.58,
           "lpg": 32.59
         },
         "aytemiz": {
@@ -794,13 +794,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.19,
-          "dizel": 67.5,
+          "benzin": 64.28,
+          "dizel": 67.58,
           "lpg": 33.69
         },
         "po": {
-          "benzin": 64.2,
-          "dizel": 67.52,
+          "benzin": 64.27,
+          "dizel": 67.58,
           "lpg": 31.49
         },
         "aytemiz": {
@@ -819,13 +819,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.9,
-          "dizel": 68.41,
+          "benzin": 64.99,
+          "dizel": 68.49,
           "lpg": 32.65
         },
         "po": {
-          "benzin": 64.89,
-          "dizel": 68.42,
+          "benzin": 64.95,
+          "dizel": 68.48,
           "lpg": 32.01
         },
         "aytemiz": {
@@ -844,13 +844,13 @@
           "lpg": 34.29
         },
         "shell": {
-          "benzin": 64.73,
-          "dizel": 68.26,
+          "benzin": 64.82,
+          "dizel": 68.34,
           "lpg": 33.62
         },
         "po": {
-          "benzin": 64.73,
-          "dizel": 68.25,
+          "benzin": 64.8,
+          "dizel": 68.31,
           "lpg": 32.59
         },
         "aytemiz": {
@@ -869,13 +869,13 @@
           "lpg": 34.99
         },
         "shell": {
-          "benzin": 64.68,
-          "dizel": 68.19,
+          "benzin": 64.77,
+          "dizel": 68.27,
           "lpg": 33.9
         },
         "po": {
-          "benzin": 64.69,
-          "dizel": 68.21,
+          "benzin": 64.76,
+          "dizel": 68.27,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -894,13 +894,13 @@
           "lpg": 34.89
         },
         "shell": {
-          "benzin": 65.53,
-          "dizel": 69.16,
+          "benzin": 65.62,
+          "dizel": 69.24,
           "lpg": null
         },
         "po": {
-          "benzin": 65.56,
-          "dizel": 69.2,
+          "benzin": 65.62,
+          "dizel": 69.25,
           "lpg": 33.27
         },
         "aytemiz": {
@@ -919,13 +919,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.62,
-          "dizel": 68.15,
+          "benzin": 64.71,
+          "dizel": 68.23,
           "lpg": 32.65
         },
         "po": {
-          "benzin": 64.63,
-          "dizel": 68.16,
+          "benzin": 64.7,
+          "dizel": 68.23,
           "lpg": 32.11
         },
         "aytemiz": {
@@ -944,13 +944,13 @@
           "lpg": 35.59
         },
         "shell": {
-          "benzin": 65.48,
-          "dizel": 68.99,
+          "benzin": 65.57,
+          "dizel": 69.07,
           "lpg": 37.11
         },
         "po": {
-          "benzin": 65.51,
-          "dizel": 69.03,
+          "benzin": 65.58,
+          "dizel": 69.09,
           "lpg": 33.19
         },
         "aytemiz": {
@@ -969,13 +969,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.04,
-          "dizel": 68.66,
+          "benzin": 65.13,
+          "dizel": 68.74,
           "lpg": 34.2
         },
         "po": {
-          "benzin": 65.06,
-          "dizel": 68.68,
+          "benzin": 65.13,
+          "dizel": 68.74,
           "lpg": 31.94
         },
         "aytemiz": {
@@ -994,13 +994,13 @@
           "lpg": 33.39
         },
         "shell": {
-          "benzin": 62.95,
-          "dizel": 66.31,
+          "benzin": 63.04,
+          "dizel": 66.39,
           "lpg": 33.13
         },
         "po": {
-          "benzin": 62.82,
-          "dizel": 66.2,
+          "benzin": 62.87,
+          "dizel": 66.25,
           "lpg": 31.39
         },
         "aytemiz": {
@@ -1019,13 +1019,13 @@
           "lpg": 33.89
         },
         "shell": {
-          "benzin": 62.95,
-          "dizel": 66.31,
+          "benzin": 63.04,
+          "dizel": 66.39,
           "lpg": 33.13
         },
         "po": {
-          "benzin": 62.97,
-          "dizel": 66.33,
+          "benzin": 63.03,
+          "dizel": 66.41,
           "lpg": 31.99
         },
         "aytemiz": {
@@ -1044,13 +1044,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.19,
-          "dizel": 67.7,
+          "benzin": 64.28,
+          "dizel": 67.78,
           "lpg": 33.09
         },
         "po": {
-          "benzin": 64.2,
-          "dizel": 67.72,
+          "benzin": 64.27,
+          "dizel": 67.78,
           "lpg": 31.79
         },
         "aytemiz": {
@@ -1069,13 +1069,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.88,
-          "dizel": 68.43,
+          "benzin": 64.97,
+          "dizel": 68.51,
           "lpg": 32.93
         },
         "po": {
-          "benzin": 64.9,
-          "dizel": 68.43,
+          "benzin": 64.96,
+          "dizel": 68.49,
           "lpg": 32.24
         },
         "aytemiz": {
@@ -1094,13 +1094,13 @@
           "lpg": 32.99
         },
         "shell": {
-          "benzin": 64.26,
-          "dizel": 67.57,
+          "benzin": 64.35,
+          "dizel": 67.65,
           "lpg": 33.14
         },
         "po": {
-          "benzin": 64.27,
-          "dizel": 67.59,
+          "benzin": 64.34,
+          "dizel": 67.65,
           "lpg": 31.65
         },
         "aytemiz": {
@@ -1119,13 +1119,13 @@
           "lpg": 34.19
         },
         "shell": {
-          "benzin": 64.8,
-          "dizel": 68.32,
+          "benzin": 64.89,
+          "dizel": 68.4,
           "lpg": 33.47
         },
         "po": {
-          "benzin": 64.83,
-          "dizel": 68.35,
+          "benzin": 64.9,
+          "dizel": 68.42,
           "lpg": 32.41
         },
         "aytemiz": {
@@ -1144,13 +1144,13 @@
           "lpg": 35.49
         },
         "shell": {
-          "benzin": 64.98,
-          "dizel": 68.49,
+          "benzin": 65.07,
+          "dizel": 68.57,
           "lpg": 36.62
         },
         "po": {
-          "benzin": 65.01,
-          "dizel": 68.53,
+          "benzin": 65.08,
+          "dizel": 68.59,
           "lpg": 32.99
         },
         "aytemiz": {
@@ -1169,13 +1169,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.61,
-          "dizel": 68.11,
+          "benzin": 64.7,
+          "dizel": 68.19,
           "lpg": 35.18
         },
         "po": {
-          "benzin": 64.62,
-          "dizel": 68.13,
+          "benzin": 64.69,
+          "dizel": 68.2,
           "lpg": 32.65
         },
         "aytemiz": {
@@ -1194,13 +1194,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.91,
-          "dizel": 68.43,
+          "benzin": 65,
+          "dizel": 68.51,
           "lpg": 33.61
         },
         "po": {
-          "benzin": 64.93,
-          "dizel": 68.44,
+          "benzin": 65,
+          "dizel": 68.51,
           "lpg": 31.91
         },
         "aytemiz": {
@@ -1219,13 +1219,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.62,
-          "dizel": 68.15,
+          "benzin": 64.71,
+          "dizel": 68.23,
           "lpg": 32.35
         },
         "po": {
-          "benzin": 64.64,
-          "dizel": 68.17,
+          "benzin": 64.7,
+          "dizel": 68.23,
           "lpg": 32.31
         },
         "aytemiz": {
@@ -1244,13 +1244,13 @@
           "lpg": 33.69
         },
         "shell": {
-          "benzin": 64.21,
-          "dizel": 67.73,
+          "benzin": 64.3,
+          "dizel": 67.81,
           "lpg": 33.21
         },
         "po": {
-          "benzin": 64.23,
-          "dizel": 67.74,
+          "benzin": 64.3,
+          "dizel": 67.81,
           "lpg": 31.82
         },
         "aytemiz": {
@@ -1269,13 +1269,13 @@
           "lpg": 34.19
         },
         "shell": {
-          "benzin": 64.02,
-          "dizel": 67.55,
+          "benzin": 64.11,
+          "dizel": 67.63,
           "lpg": 33.33
         },
         "po": {
-          "benzin": 64.03,
-          "dizel": 67.58,
+          "benzin": 64.1,
+          "dizel": 67.63,
           "lpg": 31.99
         },
         "aytemiz": {
@@ -1294,13 +1294,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.27,
-          "dizel": 67.78,
+          "benzin": 64.36,
+          "dizel": 67.86,
           "lpg": 33.78
         },
         "po": {
-          "benzin": 64.28,
-          "dizel": 67.79,
+          "benzin": 64.35,
+          "dizel": 67.86,
           "lpg": 31.92
         },
         "aytemiz": {
@@ -1319,13 +1319,13 @@
           "lpg": 33.49
         },
         "shell": {
-          "benzin": 63.36,
-          "dizel": 66.67,
+          "benzin": 63.45,
+          "dizel": 66.75,
           "lpg": 32.71
         },
         "po": {
-          "benzin": 63.37,
-          "dizel": 66.69,
+          "benzin": 63.44,
+          "dizel": 66.75,
           "lpg": 31.19
         },
         "aytemiz": {
@@ -1344,13 +1344,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.93,
-          "dizel": 68.6,
+          "benzin": 65.02,
+          "dizel": 68.68,
           "lpg": 34.23
         },
         "po": {
-          "benzin": 64.94,
-          "dizel": 68.61,
+          "benzin": 65.01,
+          "dizel": 68.68,
           "lpg": 32.01
         },
         "aytemiz": {
@@ -1369,13 +1369,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.87,
-          "dizel": 68.22,
+          "benzin": 64.96,
+          "dizel": 68.3,
           "lpg": 33.6
         },
         "po": {
-          "benzin": 64.87,
-          "dizel": 68.23,
+          "benzin": 64.94,
+          "dizel": 68.3,
           "lpg": 31.94
         },
         "aytemiz": {
@@ -1394,13 +1394,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.09,
-          "dizel": 68.62,
+          "benzin": 65.18,
+          "dizel": 68.7,
           "lpg": 33.49
         },
         "po": {
-          "benzin": 65.12,
-          "dizel": 68.65,
+          "benzin": 65.18,
+          "dizel": 68.71,
           "lpg": 32.47
         },
         "aytemiz": {
@@ -1419,13 +1419,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.27,
-          "dizel": 67.77,
+          "benzin": 64.36,
+          "dizel": 67.85,
           "lpg": 32.92
         },
         "po": {
-          "benzin": 64.28,
-          "dizel": 67.8,
+          "benzin": 64.35,
+          "dizel": 67.86,
           "lpg": 31.84
         },
         "aytemiz": {
@@ -1444,13 +1444,13 @@
           "lpg": 33.59
         },
         "shell": {
-          "benzin": 65.41,
-          "dizel": 69.04,
+          "benzin": 65.5,
+          "dizel": 69.12,
           "lpg": 34.54
         },
         "po": {
-          "benzin": 65.42,
-          "dizel": 69.06,
+          "benzin": 65.5,
+          "dizel": 69.13,
           "lpg": 32.44
         },
         "aytemiz": {
@@ -1469,13 +1469,13 @@
           "lpg": 33.79
         },
         "shell": {
-          "benzin": 64.75,
-          "dizel": 68.26,
+          "benzin": 64.84,
+          "dizel": 68.34,
           "lpg": 33.45
         },
         "po": {
-          "benzin": 64.76,
-          "dizel": 68.28,
+          "benzin": 64.83,
+          "dizel": 68.35,
           "lpg": 32.61
         },
         "aytemiz": {
@@ -1494,13 +1494,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.68,
-          "dizel": 68.19,
+          "benzin": 64.77,
+          "dizel": 68.27,
           "lpg": 34.79
         },
         "po": {
-          "benzin": 64.71,
-          "dizel": 68.23,
+          "benzin": 64.78,
+          "dizel": 68.29,
           "lpg": 31.84
         },
         "aytemiz": {
@@ -1519,13 +1519,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.52,
-          "dizel": 69.15,
+          "benzin": 65.61,
+          "dizel": 69.23,
           "lpg": 35.87
         },
         "po": {
-          "benzin": 65.54,
-          "dizel": 69.18,
+          "benzin": 65.6,
+          "dizel": 69.23,
           "lpg": 32.78
         },
         "aytemiz": {
@@ -1544,13 +1544,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.82,
-          "dizel": 68.35,
+          "benzin": 64.91,
+          "dizel": 68.43,
           "lpg": 33.62
         },
         "po": {
-          "benzin": 64.83,
-          "dizel": 68.35,
+          "benzin": 64.9,
+          "dizel": 68.42,
           "lpg": 32.01
         },
         "aytemiz": {
@@ -1569,13 +1569,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.75,
-          "dizel": 68.27,
+          "benzin": 64.84,
+          "dizel": 68.35,
           "lpg": 33.04
         },
         "po": {
-          "benzin": 64.78,
-          "dizel": 68.3,
+          "benzin": 64.85,
+          "dizel": 68.37,
           "lpg": 31.81
         },
         "aytemiz": {
@@ -1594,13 +1594,13 @@
           "lpg": 34.39
         },
         "shell": {
-          "benzin": 64.52,
-          "dizel": 68.01,
+          "benzin": 64.61,
+          "dizel": 68.09,
           "lpg": 33.56
         },
         "po": {
-          "benzin": 64.53,
-          "dizel": 68.03,
+          "benzin": 64.59,
+          "dizel": 68.09,
           "lpg": 32.19
         },
         "aytemiz": {
@@ -1619,13 +1619,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.61,
-          "dizel": 68.14,
+          "benzin": 64.7,
+          "dizel": 68.22,
           "lpg": 31.69
         },
         "po": {
-          "benzin": 64.63,
-          "dizel": 68.16,
+          "benzin": 64.69,
+          "dizel": 68.22,
           "lpg": 32.44
         },
         "aytemiz": {
@@ -1644,13 +1644,13 @@
           "lpg": 34.99
         },
         "shell": {
-          "benzin": 64.67,
-          "dizel": 68.17,
+          "benzin": 64.76,
+          "dizel": 68.25,
           "lpg": 34.63
         },
         "po": {
-          "benzin": 64.67,
-          "dizel": 68.19,
+          "benzin": 64.74,
+          "dizel": 68.25,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -1669,13 +1669,13 @@
           "lpg": 33.59
         },
         "shell": {
-          "benzin": 63.67,
-          "dizel": 66.97,
+          "benzin": 63.76,
+          "dizel": 67.05,
           "lpg": 32.81
         },
         "po": {
-          "benzin": 63.67,
-          "dizel": 66.99,
+          "benzin": 63.74,
+          "dizel": 67.05,
           "lpg": 31.29
         },
         "aytemiz": {
@@ -1694,13 +1694,13 @@
           "lpg": 34.09
         },
         "shell": {
-          "benzin": 64.5,
-          "dizel": 68,
+          "benzin": 64.59,
+          "dizel": 68.08,
           "lpg": 33.59
         },
         "po": {
-          "benzin": 64.51,
-          "dizel": 68.01,
+          "benzin": 64.58,
+          "dizel": 68.08,
           "lpg": 32.19
         },
         "aytemiz": {
@@ -1719,13 +1719,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.07,
-          "dizel": 68.6,
+          "benzin": 65.16,
+          "dizel": 68.68,
           "lpg": 33.85
         },
         "po": {
-          "benzin": 65.1,
-          "dizel": 68.63,
+          "benzin": 65.16,
+          "dizel": 68.69,
           "lpg": 32.46
         },
         "aytemiz": {
@@ -1744,13 +1744,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.43,
-          "dizel": 69.04,
+          "benzin": 65.52,
+          "dizel": 69.12,
           "lpg": 34.78
         },
         "po": {
-          "benzin": 65.41,
-          "dizel": 69.05,
+          "benzin": 65.49,
+          "dizel": 69.12,
           "lpg": 32.64
         },
         "aytemiz": {
@@ -1769,13 +1769,13 @@
           "lpg": 33.69
         },
         "shell": {
-          "benzin": 64.55,
-          "dizel": 68.06,
+          "benzin": 64.64,
+          "dizel": 68.14,
           "lpg": 34.12
         },
         "po": {
-          "benzin": 64.57,
-          "dizel": 68.07,
+          "benzin": 64.63,
+          "dizel": 68.13,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -1794,13 +1794,13 @@
           "lpg": 34.29
         },
         "shell": {
-          "benzin": 65.51,
-          "dizel": 69.14,
+          "benzin": 65.6,
+          "dizel": 69.22,
           "lpg": 35.1
         },
         "po": {
-          "benzin": 65.53,
-          "dizel": 69.17,
+          "benzin": 65.59,
+          "dizel": 69.22,
           "lpg": 32.85
         },
         "aytemiz": {
@@ -1819,13 +1819,13 @@
           "lpg": 34.59
         },
         "shell": {
-          "benzin": 64.93,
-          "dizel": 68.43,
+          "benzin": 65.02,
+          "dizel": 68.51,
           "lpg": 35.17
         },
         "po": {
-          "benzin": 64.94,
-          "dizel": 68.45,
+          "benzin": 65,
+          "dizel": 68.51,
           "lpg": 32.49
         },
         "aytemiz": {
@@ -1844,13 +1844,13 @@
           "lpg": 33.29
         },
         "shell": {
-          "benzin": 63.62,
-          "dizel": 67.15,
+          "benzin": 63.71,
+          "dizel": 67.23,
           "lpg": 32.99
         },
         "po": {
-          "benzin": 63.63,
-          "dizel": 67.18,
+          "benzin": 63.7,
+          "dizel": 67.23,
           "lpg": 31.79
         },
         "aytemiz": {
@@ -1869,13 +1869,13 @@
           "lpg": 34.49
         },
         "shell": {
-          "benzin": 64.56,
-          "dizel": 68.06,
+          "benzin": 64.65,
+          "dizel": 68.14,
           "lpg": 34.1
         },
         "po": {
-          "benzin": 64.58,
-          "dizel": 68.08,
+          "benzin": 64.64,
+          "dizel": 68.14,
           "lpg": 32.69
         },
         "aytemiz": {
@@ -1894,13 +1894,13 @@
           "lpg": 34.39
         },
         "shell": {
-          "benzin": 64.66,
-          "dizel": 68.17,
+          "benzin": 64.75,
+          "dizel": 68.25,
           "lpg": 34.69
         },
         "po": {
-          "benzin": 64.66,
-          "dizel": 68.18,
+          "benzin": 64.73,
+          "dizel": 68.24,
           "lpg": 32.29
         },
         "aytemiz": {
@@ -1919,13 +1919,13 @@
           "lpg": 34.79
         },
         "shell": {
-          "benzin": 65.51,
-          "dizel": 69.14,
+          "benzin": 65.6,
+          "dizel": 69.22,
           "lpg": 34.52
         },
         "po": {
-          "benzin": 65.53,
-          "dizel": 69.17,
+          "benzin": 65.59,
+          "dizel": 69.22,
           "lpg": 33.01
         },
         "aytemiz": {
@@ -1944,13 +1944,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.68,
-          "dizel": 68.19,
+          "benzin": 64.77,
+          "dizel": 68.27,
           "lpg": 33.22
         },
         "po": {
-          "benzin": 64.71,
-          "dizel": 68.23,
+          "benzin": 64.78,
+          "dizel": 68.29,
           "lpg": 31.95
         },
         "aytemiz": {
@@ -1969,13 +1969,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 65.5,
-          "dizel": 69.06,
+          "benzin": 65.59,
+          "dizel": 69.14,
           "lpg": 36.41
         },
         "po": {
-          "benzin": 65.52,
-          "dizel": 69.07,
+          "benzin": 65.59,
+          "dizel": 69.13,
           "lpg": 32.51
         },
         "aytemiz": {
@@ -1994,13 +1994,13 @@
           "lpg": 33.59
         },
         "shell": {
-          "benzin": 63.67,
-          "dizel": 66.98,
+          "benzin": 63.76,
+          "dizel": 67.06,
           "lpg": 32.08
         },
         "po": {
-          "benzin": 63.67,
-          "dizel": 66.99,
+          "benzin": 63.74,
+          "dizel": 67.05,
           "lpg": 31.29
         },
         "aytemiz": {
@@ -2019,13 +2019,13 @@
           "lpg": 34.29
         },
         "shell": {
-          "benzin": 64.6,
-          "dizel": 68.11,
+          "benzin": 64.69,
+          "dizel": 68.19,
           "lpg": 35.34
         },
         "po": {
-          "benzin": 64.61,
-          "dizel": 68.12,
+          "benzin": 64.68,
+          "dizel": 68.19,
           "lpg": 32.12
         },
         "aytemiz": {
@@ -2044,13 +2044,13 @@
           "lpg": 33.99
         },
         "shell": {
-          "benzin": 64.18,
-          "dizel": 67.49,
+          "benzin": 64.27,
+          "dizel": 67.57,
           "lpg": 33.14
         },
         "po": {
-          "benzin": 64.19,
-          "dizel": 67.51,
+          "benzin": 64.26,
+          "dizel": 67.57,
           "lpg": 32.05
         },
         "aytemiz": {
