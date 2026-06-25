@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source": "yakit.php",
-  "fetched_at": "2026-06-24T06:56:30.460Z",
-  "price_date": "2026-06-24",
+  "fetched_at": "2026-06-25T06:56:13.755Z",
+  "price_date": "2026-06-25",
   "summary": {
     "cities_requested": 82,
     "cities_saved": 82,
@@ -41,7 +41,7 @@
         "opet": {
           "benzin": 64.32,
           "dizel": 66.77,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.33,
@@ -91,7 +91,7 @@
         "opet": {
           "benzin": 64.66,
           "dizel": 67.08,
-          "lpg": null
+          "lpg": 35.49
         },
         "shell": {
           "benzin": 64.72,
@@ -116,7 +116,7 @@
         "opet": {
           "benzin": 64.05,
           "dizel": 66.47,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.06,
@@ -141,7 +141,7 @@
         "opet": {
           "benzin": 63.74,
           "dizel": 66.15,
-          "lpg": null
+          "lpg": 34.39
         },
         "shell": {
           "benzin": 63.75,
@@ -166,7 +166,7 @@
         "opet": {
           "benzin": 63.14,
           "dizel": 65.57,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.16,
@@ -241,7 +241,7 @@
         "opet": {
           "benzin": 64.04,
           "dizel": 66.45,
-          "lpg": null
+          "lpg": 35.09
         },
         "shell": {
           "benzin": 64.05,
@@ -291,7 +291,7 @@
         "opet": {
           "benzin": 63.74,
           "dizel": 66.17,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.76,
@@ -341,7 +341,7 @@
         "opet": {
           "benzin": 64.62,
           "dizel": 67.15,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.63,
@@ -416,7 +416,7 @@
         "opet": {
           "benzin": 64.71,
           "dizel": 67.24,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.75,
@@ -491,7 +491,7 @@
         "opet": {
           "benzin": 64.2,
           "dizel": 66.72,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.21,
@@ -541,7 +541,7 @@
         "opet": {
           "benzin": 63.8,
           "dizel": 66.21,
-          "lpg": null
+          "lpg": 32.99
         },
         "shell": {
           "benzin": 63.81,
@@ -566,7 +566,7 @@
         "opet": {
           "benzin": 63.55,
           "dizel": 65.98,
-          "lpg": null
+          "lpg": 34.29
         },
         "shell": {
           "benzin": 63.57,
@@ -591,7 +591,7 @@
         "opet": {
           "benzin": 63.75,
           "dizel": 66.15,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.76,
@@ -616,7 +616,7 @@
         "opet": {
           "benzin": 63.9,
           "dizel": 66.36,
-          "lpg": null
+          "lpg": 33.79
         },
         "shell": {
           "benzin": 63.93,
@@ -641,7 +641,7 @@
         "opet": {
           "benzin": 64.61,
           "dizel": 67.15,
-          "lpg": null
+          "lpg": 33.79
         },
         "shell": {
           "benzin": 64.63,
@@ -666,7 +666,7 @@
         "opet": {
           "benzin": 63.07,
           "dizel": 65.29,
-          "lpg": null
+          "lpg": 33.59
         },
         "shell": {
           "benzin": 63.08,
@@ -691,7 +691,7 @@
         "opet": {
           "benzin": 63.27,
           "dizel": 65.72,
-          "lpg": null
+          "lpg": 34.19
         },
         "shell": {
           "benzin": 63.28,
@@ -716,7 +716,7 @@
         "opet": {
           "benzin": 64.73,
           "dizel": 67.28,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.78,
@@ -791,7 +791,7 @@
         "opet": {
           "benzin": 63.42,
           "dizel": 65.65,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.43,
@@ -816,7 +816,7 @@
         "opet": {
           "benzin": 64.12,
           "dizel": 66.53,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.15,
@@ -841,7 +841,7 @@
         "opet": {
           "benzin": 63.96,
           "dizel": 66.39,
-          "lpg": null
+          "lpg": 34.29
         },
         "shell": {
           "benzin": 63.98,
@@ -891,7 +891,7 @@
         "opet": {
           "benzin": 64.77,
           "dizel": 67.3,
-          "lpg": null
+          "lpg": 34.89
         },
         "shell": {
           "benzin": 64.78,
@@ -916,7 +916,7 @@
         "opet": {
           "benzin": 63.85,
           "dizel": 66.29,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.87,
@@ -966,7 +966,7 @@
         "opet": {
           "benzin": 64.25,
           "dizel": 66.78,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.28,
@@ -991,7 +991,7 @@
         "opet": {
           "benzin": 62.04,
           "dizel": 64.33,
-          "lpg": null
+          "lpg": 33.39
         },
         "shell": {
           "benzin": 62.19,
@@ -1016,7 +1016,7 @@
         "opet": {
           "benzin": 62.19,
           "dizel": 64.45,
-          "lpg": null
+          "lpg": 33.89
         },
         "shell": {
           "benzin": 62.19,
@@ -1041,7 +1041,7 @@
         "opet": {
           "benzin": 63.43,
           "dizel": 65.85,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.44,
@@ -1066,7 +1066,7 @@
         "opet": {
           "benzin": 64.1,
           "dizel": 66.56,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.12,
@@ -1091,7 +1091,7 @@
         "opet": {
           "benzin": 63.48,
           "dizel": 65.71,
-          "lpg": null
+          "lpg": 32.99
         },
         "shell": {
           "benzin": 63.49,
@@ -1116,7 +1116,7 @@
         "opet": {
           "benzin": 64.03,
           "dizel": 66.47,
-          "lpg": null
+          "lpg": 34.19
         },
         "shell": {
           "benzin": 64.05,
@@ -1141,7 +1141,7 @@
         "opet": {
           "benzin": 64.21,
           "dizel": 66.63,
-          "lpg": null
+          "lpg": 35.49
         },
         "shell": {
           "benzin": 64.23,
@@ -1166,7 +1166,7 @@
         "opet": {
           "benzin": 63.85,
           "dizel": 66.25,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.86,
@@ -1191,7 +1191,7 @@
         "opet": {
           "benzin": 64.15,
           "dizel": 66.58,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.16,
@@ -1266,7 +1266,7 @@
         "opet": {
           "benzin": 63.26,
           "dizel": 65.7,
-          "lpg": null
+          "lpg": 34.19
         },
         "shell": {
           "benzin": 63.26,
@@ -1291,7 +1291,7 @@
         "opet": {
           "benzin": 63.49,
           "dizel": 65.93,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.5,
@@ -1341,7 +1341,7 @@
         "opet": {
           "benzin": 64.16,
           "dizel": 66.73,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.19,
@@ -1366,7 +1366,7 @@
         "opet": {
           "benzin": 64.07,
           "dizel": 66.33,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 64.13,
@@ -1416,7 +1416,7 @@
         "opet": {
           "benzin": 63.51,
           "dizel": 65.92,
-          "lpg": null
+          "lpg": 33.99
         },
         "shell": {
           "benzin": 63.52,
@@ -1466,7 +1466,7 @@
         "opet": {
           "benzin": 63.97,
           "dizel": 66.39,
-          "lpg": null
+          "lpg": 33.79
         },
         "shell": {
           "benzin": 64,
@@ -1691,7 +1691,7 @@
         "opet": {
           "benzin": 63.73,
           "dizel": 66.14,
-          "lpg": null
+          "lpg": 34.09
         },
         "shell": {
           "benzin": 63.75,
