@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "source": "yakit.php",
-  "fetched_at": "2026-06-30T07:02:55.855Z",
-  "price_date": "2026-06-30",
+  "fetched_at": "2026-07-01T07:20:06.500Z",
+  "price_date": "2026-07-01",
   "summary": {
     "cities_requested": 82,
     "cities_saved": 82,
-    "station_rows_saved": 327,
+    "station_rows_saved": 328,
     "errors": []
   },
   "cities": [
@@ -94,9 +94,9 @@
           "lpg": 35.49
         },
         "shell": {
-          "benzin": null,
-          "dizel": null,
-          "lpg": null
+          "benzin": 64.78,
+          "dizel": 67.19,
+          "lpg": 36.91
         },
         "po": {
           "benzin": 64.79,
