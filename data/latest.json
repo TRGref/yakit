@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source": "yakit.php",
-  "fetched_at": "2026-10-21T08:34:00.256Z",
-  "price_date": "2026-10-21",
+  "fetched_at": "2026-10-22T08:36:13.862Z",
+  "price_date": "2026-10-22",
   "summary": {
     "cities_requested": 82,
     "cities_saved": 82,
@@ -14,7 +14,7 @@
       "il": "adana",
       "stations": {
         "opet": {
-          "benzin": 81.41,
+          "benzin": 78.06,
           "dizel": 98.65,
           "lpg": null
         },
@@ -24,12 +24,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.61
         },
         "aytemiz": {
-          "benzin": 81.4,
+          "benzin": 78.05,
           "dizel": 98.5,
           "lpg": null
         }
@@ -39,7 +39,7 @@
       "il": "adiyaman",
       "stations": {
         "opet": {
-          "benzin": 81.75,
+          "benzin": 78.4,
           "dizel": 99.02,
           "lpg": null
         },
@@ -49,12 +49,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.8,
-          "dizel": 98.9,
+          "benzin": 78.5,
+          "dizel": 99.1,
           "lpg": 41.84
         },
         "aytemiz": {
-          "benzin": 81.76,
+          "benzin": 78.41,
           "dizel": 98.93,
           "lpg": null
         }
@@ -64,7 +64,7 @@
       "il": "afyonkarahisar",
       "stations": {
         "opet": {
-          "benzin": 81.68,
+          "benzin": 78.33,
           "dizel": 99.07,
           "lpg": null
         },
@@ -74,12 +74,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.7,
-          "dizel": 99,
+          "benzin": 78.4,
+          "dizel": 99.1,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 81.67,
+          "benzin": 78.32,
           "dizel": 99.02,
           "lpg": null
         }
@@ -89,7 +89,7 @@
       "il": "agri",
       "stations": {
         "opet": {
-          "benzin": 82.12,
+          "benzin": 78.77,
           "dizel": 99.39,
           "lpg": null
         },
@@ -99,12 +99,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.4,
+          "benzin": 78.9,
+          "dizel": 99.5,
           "lpg": 43.19
         },
         "aytemiz": {
-          "benzin": 82.13,
+          "benzin": 78.78,
           "dizel": 99.35,
           "lpg": null
         }
@@ -114,7 +114,7 @@
       "il": "aksaray",
       "stations": {
         "opet": {
-          "benzin": 81.48,
+          "benzin": 78.13,
           "dizel": 98.72,
           "lpg": null
         },
@@ -124,12 +124,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
+          "benzin": 78.3,
           "dizel": 98.7,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 81.52,
+          "benzin": 78.17,
           "dizel": 98.66,
           "lpg": null
         }
@@ -139,7 +139,7 @@
       "il": "amasya",
       "stations": {
         "opet": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.4,
           "lpg": null
         },
@@ -149,12 +149,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.3,
+          "benzin": 77.9,
+          "dizel": 98.4,
           "lpg": 41.79
         },
         "aytemiz": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.33,
           "lpg": null
         }
@@ -164,7 +164,7 @@
       "il": "ankara",
       "stations": {
         "opet": {
-          "benzin": 80.57,
+          "benzin": 77.22,
           "dizel": 97.82,
           "lpg": null
         },
@@ -174,12 +174,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.6,
-          "dizel": 97.8,
+          "benzin": 77.3,
+          "dizel": 97.9,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 80.5,
+          "benzin": 77.15,
           "dizel": 97.7,
           "lpg": null
         }
@@ -189,7 +189,7 @@
       "il": "antalya",
       "stations": {
         "opet": {
-          "benzin": 81.82,
+          "benzin": 78.47,
           "dizel": 99.13,
           "lpg": null
         },
@@ -199,12 +199,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.8,
-          "dizel": 99.1,
+          "benzin": 78.5,
+          "dizel": 99.2,
           "lpg": 41.4
         },
         "aytemiz": {
-          "benzin": 81.81,
+          "benzin": 78.46,
           "dizel": 99.08,
           "lpg": null
         }
@@ -214,7 +214,7 @@
       "il": "ardahan",
       "stations": {
         "opet": {
-          "benzin": 81.64,
+          "benzin": 78.29,
           "dizel": 98.92,
           "lpg": null
         },
@@ -224,12 +224,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 99,
           "lpg": 42.19
         },
         "aytemiz": {
-          "benzin": 81.61,
+          "benzin": 78.26,
           "dizel": 98.83,
           "lpg": null
         }
@@ -239,7 +239,7 @@
       "il": "artvin",
       "stations": {
         "opet": {
-          "benzin": 81.47,
+          "benzin": 78.12,
           "dizel": 98.73,
           "lpg": null
         },
@@ -249,12 +249,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.5,
-          "dizel": 98.7,
+          "benzin": 78.2,
+          "dizel": 98.8,
           "lpg": 42.69
         },
         "aytemiz": {
-          "benzin": 81.49,
+          "benzin": 78.14,
           "dizel": 98.71,
           "lpg": null
         }
@@ -264,7 +264,7 @@
       "il": "aydin",
       "stations": {
         "opet": {
-          "benzin": 81.07,
+          "benzin": 77.72,
           "dizel": 98.36,
           "lpg": null
         },
@@ -274,12 +274,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.1,
-          "dizel": 98.3,
+          "benzin": 77.8,
+          "dizel": 98.4,
           "lpg": 41.3
         },
         "aytemiz": {
-          "benzin": 81.07,
+          "benzin": 77.72,
           "dizel": 98.32,
           "lpg": null
         }
@@ -289,7 +289,7 @@
       "il": "balikesir",
       "stations": {
         "opet": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.45,
           "lpg": null
         },
@@ -299,12 +299,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.4,
+          "benzin": 77.9,
+          "dizel": 98.5,
           "lpg": 40.7
         },
         "aytemiz": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.41,
           "lpg": null
         }
@@ -314,7 +314,7 @@
       "il": "bartin",
       "stations": {
         "opet": {
-          "benzin": 80.89,
+          "benzin": 77.54,
           "dizel": 97.95,
           "lpg": null
         },
@@ -324,12 +324,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81,
-          "dizel": 98,
+          "benzin": 77.7,
+          "dizel": 98.1,
           "lpg": 41.19
         },
         "aytemiz": {
-          "benzin": 80.9,
+          "benzin": 77.55,
           "dizel": 97.91,
           "lpg": null
         }
@@ -339,7 +339,7 @@
       "il": "batman",
       "stations": {
         "opet": {
-          "benzin": 82.05,
+          "benzin": 78.7,
           "dizel": 99.4,
           "lpg": null
         },
@@ -349,12 +349,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82,
-          "dizel": 99.3,
+          "benzin": 78.7,
+          "dizel": 99.4,
           "lpg": 42.14
         },
         "aytemiz": {
-          "benzin": 82.01,
+          "benzin": 78.66,
           "dizel": 99.33,
           "lpg": null
         }
@@ -364,7 +364,7 @@
       "il": "bayburt",
       "stations": {
         "opet": {
-          "benzin": 81.34,
+          "benzin": 77.99,
           "dizel": 98.61,
           "lpg": null
         },
@@ -374,12 +374,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 42.49
         },
         "aytemiz": {
-          "benzin": 81.36,
+          "benzin": 78.01,
           "dizel": 98.55,
           "lpg": null
         }
@@ -389,7 +389,7 @@
       "il": "bilecik",
       "stations": {
         "opet": {
-          "benzin": 80.54,
+          "benzin": 77.19,
           "dizel": 97.57,
           "lpg": null
         },
@@ -399,12 +399,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.6,
-          "dizel": 97.5,
+          "benzin": 77.3,
+          "dizel": 97.6,
           "lpg": 40.6
         },
         "aytemiz": {
-          "benzin": 80.56,
+          "benzin": 77.21,
           "dizel": 97.49,
           "lpg": null
         }
@@ -414,7 +414,7 @@
       "il": "bingol",
       "stations": {
         "opet": {
-          "benzin": 82.14,
+          "benzin": 78.79,
           "dizel": 99.49,
           "lpg": null
         },
@@ -424,12 +424,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.1,
-          "dizel": 99.4,
+          "benzin": 78.8,
+          "dizel": 99.5,
           "lpg": 42.29
         },
         "aytemiz": {
-          "benzin": 82.11,
+          "benzin": 78.76,
           "dizel": 99.4,
           "lpg": null
         }
@@ -439,7 +439,7 @@
       "il": "bitlis",
       "stations": {
         "opet": {
-          "benzin": 82.19,
+          "benzin": 78.84,
           "dizel": 99.55,
           "lpg": null
         },
@@ -449,12 +449,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.5,
+          "benzin": 78.9,
+          "dizel": 99.6,
           "lpg": 41.91
         },
         "aytemiz": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.49,
           "lpg": null
         }
@@ -464,7 +464,7 @@
       "il": "bolu",
       "stations": {
         "opet": {
-          "benzin": 80.66,
+          "benzin": 77.31,
           "dizel": 97.69,
           "lpg": null
         },
@@ -474,12 +474,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.7,
-          "dizel": 97.6,
+          "benzin": 77.4,
+          "dizel": 97.7,
           "lpg": 40.99
         },
         "aytemiz": {
-          "benzin": 80.67,
+          "benzin": 77.32,
           "dizel": 97.6,
           "lpg": null
         }
@@ -489,7 +489,7 @@
       "il": "burdur",
       "stations": {
         "opet": {
-          "benzin": 81.63,
+          "benzin": 78.28,
           "dizel": 98.97,
           "lpg": null
         },
@@ -499,12 +499,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.9,
+          "benzin": 78.3,
+          "dizel": 99,
           "lpg": 41.4
         },
         "aytemiz": {
-          "benzin": 81.61,
+          "benzin": 78.26,
           "dizel": 98.89,
           "lpg": null
         }
@@ -514,7 +514,7 @@
       "il": "bursa",
       "stations": {
         "opet": {
-          "benzin": 80.66,
+          "benzin": 77.31,
           "dizel": 97.71,
           "lpg": null
         },
@@ -524,12 +524,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.7,
-          "dizel": 97.7,
+          "benzin": 77.4,
+          "dizel": 97.8,
           "lpg": 40.6
         },
         "aytemiz": {
-          "benzin": 80.6,
+          "benzin": 77.25,
           "dizel": 97.6,
           "lpg": null
         }
@@ -539,7 +539,7 @@
       "il": "canakkale",
       "stations": {
         "opet": {
-          "benzin": 81.23,
+          "benzin": 77.88,
           "dizel": 98.49,
           "lpg": null
         },
@@ -549,12 +549,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.4,
+          "benzin": 77.9,
+          "dizel": 98.5,
           "lpg": 40.8
         },
         "aytemiz": {
-          "benzin": 81.21,
+          "benzin": 77.86,
           "dizel": 98.4,
           "lpg": null
         }
@@ -564,7 +564,7 @@
       "il": "cankiri",
       "stations": {
         "opet": {
-          "benzin": 80.98,
+          "benzin": 77.63,
           "dizel": 98.23,
           "lpg": null
         },
@@ -574,12 +574,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81,
-          "dizel": 98.2,
+          "benzin": 77.7,
+          "dizel": 98.3,
           "lpg": 41.49
         },
         "aytemiz": {
-          "benzin": 80.97,
+          "benzin": 77.62,
           "dizel": 98.18,
           "lpg": null
         }
@@ -589,7 +589,7 @@
       "il": "corum",
       "stations": {
         "opet": {
-          "benzin": 81.18,
+          "benzin": 77.83,
           "dizel": 98.4,
           "lpg": null
         },
@@ -599,12 +599,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.4,
+          "benzin": 77.9,
+          "dizel": 98.5,
           "lpg": 41.39
         },
         "aytemiz": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.33,
           "lpg": null
         }
@@ -614,7 +614,7 @@
       "il": "denizli",
       "stations": {
         "opet": {
-          "benzin": 81.33,
+          "benzin": 77.98,
           "dizel": 98.64,
           "lpg": null
         },
@@ -624,12 +624,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.1
         },
         "aytemiz": {
-          "benzin": 81.33,
+          "benzin": 77.98,
           "dizel": 98.59,
           "lpg": null
         }
@@ -639,7 +639,7 @@
       "il": "diyarbakir",
       "stations": {
         "opet": {
-          "benzin": 82.04,
+          "benzin": 78.69,
           "dizel": 99.4,
           "lpg": null
         },
@@ -649,12 +649,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82,
-          "dizel": 99.3,
+          "benzin": 78.7,
+          "dizel": 99.4,
           "lpg": 42.26
         },
         "aytemiz": {
-          "benzin": 82.01,
+          "benzin": 78.66,
           "dizel": 99.33,
           "lpg": null
         }
@@ -664,7 +664,7 @@
       "il": "duzce",
       "stations": {
         "opet": {
-          "benzin": 80.5,
+          "benzin": 77.15,
           "dizel": 97.54,
           "lpg": null
         },
@@ -674,12 +674,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.5,
-          "dizel": 97.5,
+          "benzin": 77.2,
+          "dizel": 97.6,
           "lpg": 40.99
         },
         "aytemiz": {
-          "benzin": 80.48,
+          "benzin": 77.13,
           "dizel": 97.49,
           "lpg": null
         }
@@ -689,7 +689,7 @@
       "il": "edirne",
       "stations": {
         "opet": {
-          "benzin": 80.7,
+          "benzin": 77.35,
           "dizel": 97.97,
           "lpg": null
         },
@@ -699,12 +699,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.7,
-          "dizel": 97.9,
+          "benzin": 77.4,
+          "dizel": 98,
           "lpg": 41.3
         },
         "aytemiz": {
-          "benzin": 80.68,
+          "benzin": 77.33,
           "dizel": 97.89,
           "lpg": null
         }
@@ -714,7 +714,7 @@
       "il": "elazig",
       "stations": {
         "opet": {
-          "benzin": 82.19,
+          "benzin": 78.84,
           "dizel": 99.53,
           "lpg": null
         },
@@ -724,12 +724,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.4,
+          "benzin": 78.9,
+          "dizel": 99.5,
           "lpg": 41.81
         },
         "aytemiz": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.43,
           "lpg": null
         }
@@ -739,7 +739,7 @@
       "il": "erzincan",
       "stations": {
         "opet": {
-          "benzin": 81.58,
+          "benzin": 78.23,
           "dizel": 98.85,
           "lpg": null
         },
@@ -749,12 +749,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 98.9,
           "lpg": 42.69
         },
         "aytemiz": {
-          "benzin": 81.57,
+          "benzin": 78.22,
           "dizel": 98.79,
           "lpg": null
         }
@@ -764,7 +764,7 @@
       "il": "erzurum",
       "stations": {
         "opet": {
-          "benzin": 81.63,
+          "benzin": 78.28,
           "dizel": 98.91,
           "lpg": null
         },
@@ -774,12 +774,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 98.9,
           "lpg": 42.39
         },
         "aytemiz": {
-          "benzin": 81.61,
+          "benzin": 78.26,
           "dizel": 98.83,
           "lpg": null
         }
@@ -789,7 +789,7 @@
       "il": "eskisehir",
       "stations": {
         "opet": {
-          "benzin": 80.85,
+          "benzin": 77.5,
           "dizel": 97.9,
           "lpg": null
         },
@@ -799,12 +799,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.8,
-          "dizel": 97.8,
+          "benzin": 77.5,
+          "dizel": 97.9,
           "lpg": 40.7
         },
         "aytemiz": {
-          "benzin": 80.81,
+          "benzin": 77.46,
           "dizel": 97.8,
           "lpg": null
         }
@@ -814,7 +814,7 @@
       "il": "gaziantep",
       "stations": {
         "opet": {
-          "benzin": 81.55,
+          "benzin": 78.2,
           "dizel": 98.78,
           "lpg": null
         },
@@ -824,12 +824,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.5,
-          "dizel": 98.7,
+          "benzin": 78.2,
+          "dizel": 98.8,
           "lpg": 41.41
         },
         "aytemiz": {
-          "benzin": 81.51,
+          "benzin": 78.16,
           "dizel": 98.7,
           "lpg": null
         }
@@ -839,7 +839,7 @@
       "il": "giresun",
       "stations": {
         "opet": {
-          "benzin": 81.39,
+          "benzin": 78.04,
           "dizel": 98.67,
           "lpg": null
         },
@@ -849,12 +849,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.37,
+          "benzin": 78.02,
           "dizel": 98.59,
           "lpg": null
         }
@@ -864,7 +864,7 @@
       "il": "gumushane",
       "stations": {
         "opet": {
-          "benzin": 81.35,
+          "benzin": 78,
           "dizel": 98.61,
           "lpg": null
         },
@@ -874,12 +874,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.32,
+          "benzin": 77.97,
           "dizel": 98.54,
           "lpg": null
         }
@@ -889,7 +889,7 @@
       "il": "hakkari",
       "stations": {
         "opet": {
-          "benzin": 82.2,
+          "benzin": 78.85,
           "dizel": 99.55,
           "lpg": null
         },
@@ -899,12 +899,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.5,
+          "benzin": 78.9,
+          "dizel": 99.6,
           "lpg": 42.97
         },
         "aytemiz": {
-          "benzin": 82.18,
+          "benzin": 78.83,
           "dizel": 99.49,
           "lpg": null
         }
@@ -914,7 +914,7 @@
       "il": "hatay",
       "stations": {
         "opet": {
-          "benzin": 81.31,
+          "benzin": 77.96,
           "dizel": 98.57,
           "lpg": null
         },
@@ -924,12 +924,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 41.51
         },
         "aytemiz": {
-          "benzin": 81.28,
+          "benzin": 77.93,
           "dizel": 98.49,
           "lpg": null
         }
@@ -939,7 +939,7 @@
       "il": "igdir",
       "stations": {
         "opet": {
-          "benzin": 82.12,
+          "benzin": 78.77,
           "dizel": 99.38,
           "lpg": null
         },
@@ -949,12 +949,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.4,
+          "benzin": 78.9,
+          "dizel": 99.5,
           "lpg": 43.19
         },
         "aytemiz": {
-          "benzin": 82.16,
+          "benzin": 78.81,
           "dizel": 99.32,
           "lpg": null
         }
@@ -964,7 +964,7 @@
       "il": "isparta",
       "stations": {
         "opet": {
-          "benzin": 81.68,
+          "benzin": 78.33,
           "dizel": 99.03,
           "lpg": null
         },
@@ -974,12 +974,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.7,
-          "dizel": 99,
+          "benzin": 78.4,
+          "dizel": 99.1,
           "lpg": 41.3
         },
         "aytemiz": {
-          "benzin": 81.67,
+          "benzin": 78.32,
           "dizel": 98.98,
           "lpg": null
         }
@@ -989,7 +989,7 @@
       "il": "istanbul-anadolu",
       "stations": {
         "opet": {
-          "benzin": 79.42,
+          "benzin": 76.07,
           "dizel": 96.63,
           "lpg": null
         },
@@ -999,12 +999,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 79.4,
-          "dizel": 96.5,
+          "benzin": 76.1,
+          "dizel": 96.6,
           "lpg": 40.6
         },
         "aytemiz": {
-          "benzin": 79.4,
+          "benzin": 76.05,
           "dizel": 96.5,
           "lpg": null
         }
@@ -1014,7 +1014,7 @@
       "il": "istanbul-avrupa",
       "stations": {
         "opet": {
-          "benzin": 79.57,
+          "benzin": 76.22,
           "dizel": 96.75,
           "lpg": null
         },
@@ -1024,12 +1024,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 79.6,
-          "dizel": 96.7,
+          "benzin": 76.3,
+          "dizel": 96.8,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 79.5,
+          "benzin": 76.15,
           "dizel": 96.6,
           "lpg": null
         }
@@ -1039,7 +1039,7 @@
       "il": "izmir",
       "stations": {
         "opet": {
-          "benzin": 80.86,
+          "benzin": 77.51,
           "dizel": 98.13,
           "lpg": null
         },
@@ -1049,12 +1049,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.8,
-          "dizel": 98,
+          "benzin": 77.5,
+          "dizel": 98.1,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 80.8,
+          "benzin": 77.45,
           "dizel": 98,
           "lpg": null
         }
@@ -1064,7 +1064,7 @@
       "il": "kahramanmaras",
       "stations": {
         "opet": {
-          "benzin": 81.53,
+          "benzin": 78.18,
           "dizel": 98.81,
           "lpg": null
         },
@@ -1074,12 +1074,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 98.9,
           "lpg": 41.54
         },
         "aytemiz": {
-          "benzin": 81.56,
+          "benzin": 78.21,
           "dizel": 98.78,
           "lpg": null
         }
@@ -1089,7 +1089,7 @@
       "il": "karabuk",
       "stations": {
         "opet": {
-          "benzin": 80.91,
+          "benzin": 77.56,
           "dizel": 97.96,
           "lpg": null
         },
@@ -1099,12 +1099,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81,
-          "dizel": 98,
+          "benzin": 77.7,
+          "dizel": 98.1,
           "lpg": 40.99
         },
         "aytemiz": {
-          "benzin": 80.93,
+          "benzin": 77.58,
           "dizel": 97.92,
           "lpg": null
         }
@@ -1114,7 +1114,7 @@
       "il": "karaman",
       "stations": {
         "opet": {
-          "benzin": 81.46,
+          "benzin": 78.11,
           "dizel": 98.72,
           "lpg": null
         },
@@ -1124,12 +1124,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
+          "benzin": 78.3,
           "dizel": 98.7,
           "lpg": 41.81
         },
         "aytemiz": {
-          "benzin": 81.52,
+          "benzin": 78.17,
           "dizel": 98.66,
           "lpg": null
         }
@@ -1139,7 +1139,7 @@
       "il": "kars",
       "stations": {
         "opet": {
-          "benzin": 81.64,
+          "benzin": 78.29,
           "dizel": 98.91,
           "lpg": null
         },
@@ -1149,12 +1149,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 99,
           "lpg": 42.29
         },
         "aytemiz": {
-          "benzin": 81.61,
+          "benzin": 78.26,
           "dizel": 98.83,
           "lpg": null
         }
@@ -1164,7 +1164,7 @@
       "il": "kastamonu",
       "stations": {
         "opet": {
-          "benzin": 81.28,
+          "benzin": 77.93,
           "dizel": 98.5,
           "lpg": null
         },
@@ -1174,12 +1174,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.4,
+          "benzin": 78,
+          "dizel": 98.5,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.27,
+          "benzin": 77.92,
           "dizel": 98.43,
           "lpg": null
         }
@@ -1189,7 +1189,7 @@
       "il": "kayseri",
       "stations": {
         "opet": {
-          "benzin": 81.58,
+          "benzin": 78.23,
           "dizel": 98.83,
           "lpg": null
         },
@@ -1199,12 +1199,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 98.9,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 81.57,
+          "benzin": 78.22,
           "dizel": 98.78,
           "lpg": null
         }
@@ -1214,7 +1214,7 @@
       "il": "kilis",
       "stations": {
         "opet": {
-          "benzin": 81.28,
+          "benzin": 77.93,
           "dizel": 98.55,
           "lpg": null
         },
@@ -1224,12 +1224,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 41.81
         },
         "aytemiz": {
-          "benzin": 81.27,
+          "benzin": 77.92,
           "dizel": 98.49,
           "lpg": null
         }
@@ -1239,7 +1239,7 @@
       "il": "kirikkale",
       "stations": {
         "opet": {
-          "benzin": 80.88,
+          "benzin": 77.53,
           "dizel": 98.12,
           "lpg": null
         },
@@ -1249,12 +1249,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.9,
-          "dizel": 98.1,
+          "benzin": 77.6,
+          "dizel": 98.2,
           "lpg": 41.19
         },
         "aytemiz": {
-          "benzin": 80.89,
+          "benzin": 77.54,
           "dizel": 98.07,
           "lpg": null
         }
@@ -1264,7 +1264,7 @@
       "il": "kirklareli",
       "stations": {
         "opet": {
-          "benzin": 80.69,
+          "benzin": 77.34,
           "dizel": 97.95,
           "lpg": null
         },
@@ -1274,12 +1274,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.7,
-          "dizel": 97.9,
+          "benzin": 77.4,
+          "dizel": 98,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 80.67,
+          "benzin": 77.32,
           "dizel": 97.89,
           "lpg": null
         }
@@ -1289,7 +1289,7 @@
       "il": "kirsehir",
       "stations": {
         "opet": {
-          "benzin": 80.92,
+          "benzin": 77.57,
           "dizel": 98.18,
           "lpg": null
         },
@@ -1299,12 +1299,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.9,
-          "dizel": 98.1,
+          "benzin": 77.6,
+          "dizel": 98.2,
           "lpg": 41.19
         },
         "aytemiz": {
-          "benzin": 80.91,
+          "benzin": 77.56,
           "dizel": 98.1,
           "lpg": null
         }
@@ -1314,7 +1314,7 @@
       "il": "kocaeli",
       "stations": {
         "opet": {
-          "benzin": 80.02,
+          "benzin": 76.67,
           "dizel": 97.07,
           "lpg": null
         },
@@ -1324,12 +1324,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80,
-          "dizel": 97,
+          "benzin": 76.7,
+          "dizel": 97.1,
           "lpg": 40.4
         },
         "aytemiz": {
-          "benzin": 80.01,
+          "benzin": 76.66,
           "dizel": 97.02,
           "lpg": null
         }
@@ -1339,7 +1339,7 @@
       "il": "konya",
       "stations": {
         "opet": {
-          "benzin": 81.59,
+          "benzin": 78.24,
           "dizel": 98.98,
           "lpg": null
         },
@@ -1349,12 +1349,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.9,
+          "benzin": 78.3,
+          "dizel": 99,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 81.57,
+          "benzin": 78.22,
           "dizel": 98.9,
           "lpg": null
         }
@@ -1364,7 +1364,7 @@
       "il": "kutahya",
       "stations": {
         "opet": {
-          "benzin": 81.53,
+          "benzin": 78.18,
           "dizel": 98.58,
           "lpg": null
         },
@@ -1374,12 +1374,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.5,
-          "dizel": 98.5,
+          "benzin": 78.2,
+          "dizel": 98.6,
           "lpg": 41.3
         },
         "aytemiz": {
-          "benzin": 81.51,
+          "benzin": 78.16,
           "dizel": 98.5,
           "lpg": null
         }
@@ -1389,7 +1389,7 @@
       "il": "malatya",
       "stations": {
         "opet": {
-          "benzin": 81.75,
+          "benzin": 78.4,
           "dizel": 99.01,
           "lpg": null
         },
@@ -1399,12 +1399,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.8,
-          "dizel": 98.9,
+          "benzin": 78.5,
+          "dizel": 99.1,
           "lpg": 41.77
         },
         "aytemiz": {
-          "benzin": 81.76,
+          "benzin": 78.41,
           "dizel": 98.93,
           "lpg": null
         }
@@ -1414,7 +1414,7 @@
       "il": "manisa",
       "stations": {
         "opet": {
-          "benzin": 80.94,
+          "benzin": 77.59,
           "dizel": 98.2,
           "lpg": null
         },
@@ -1424,12 +1424,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.9,
-          "dizel": 98.1,
+          "benzin": 77.6,
+          "dizel": 98.2,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 80.91,
+          "benzin": 77.56,
           "dizel": 98.13,
           "lpg": null
         }
@@ -1439,7 +1439,7 @@
       "il": "mardin",
       "stations": {
         "opet": {
-          "benzin": 82.06,
+          "benzin": 78.71,
           "dizel": 99.41,
           "lpg": null
         },
@@ -1449,12 +1449,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82,
-          "dizel": 99.3,
+          "benzin": 78.7,
+          "dizel": 99.4,
           "lpg": 41.94
         },
         "aytemiz": {
-          "benzin": 82.02,
+          "benzin": 78.67,
           "dizel": 99.33,
           "lpg": null
         }
@@ -1464,7 +1464,7 @@
       "il": "mersin",
       "stations": {
         "opet": {
-          "benzin": 81.4,
+          "benzin": 78.05,
           "dizel": 98.64,
           "lpg": null
         },
@@ -1474,12 +1474,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.91
         },
         "aytemiz": {
-          "benzin": 81.4,
+          "benzin": 78.05,
           "dizel": 98.59,
           "lpg": null
         }
@@ -1489,7 +1489,7 @@
       "il": "mugla",
       "stations": {
         "opet": {
-          "benzin": 81.34,
+          "benzin": 77.99,
           "dizel": 98.63,
           "lpg": null
         },
@@ -1499,12 +1499,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.2
         },
         "aytemiz": {
-          "benzin": 81.34,
+          "benzin": 77.99,
           "dizel": 98.58,
           "lpg": null
         }
@@ -1514,7 +1514,7 @@
       "il": "mus",
       "stations": {
         "opet": {
-          "benzin": 82.19,
+          "benzin": 78.84,
           "dizel": 99.53,
           "lpg": null
         },
@@ -1524,12 +1524,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.5,
+          "benzin": 78.9,
+          "dizel": 99.6,
           "lpg": 42.28
         },
         "aytemiz": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.48,
           "lpg": null
         }
@@ -1539,7 +1539,7 @@
       "il": "nevsehir",
       "stations": {
         "opet": {
-          "benzin": 81.48,
+          "benzin": 78.13,
           "dizel": 98.74,
           "lpg": null
         },
@@ -1549,12 +1549,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.5,
-          "dizel": 98.7,
+          "benzin": 78.2,
+          "dizel": 98.8,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 81.47,
+          "benzin": 78.12,
           "dizel": 98.69,
           "lpg": null
         }
@@ -1564,7 +1564,7 @@
       "il": "nigde",
       "stations": {
         "opet": {
-          "benzin": 81.4,
+          "benzin": 78.05,
           "dizel": 98.65,
           "lpg": null
         },
@@ -1574,12 +1574,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 40.99
         },
         "aytemiz": {
-          "benzin": 81.38,
+          "benzin": 78.03,
           "dizel": 98.59,
           "lpg": null
         }
@@ -1589,7 +1589,7 @@
       "il": "ordu",
       "stations": {
         "opet": {
-          "benzin": 81.19,
+          "benzin": 77.84,
           "dizel": 98.4,
           "lpg": null
         },
@@ -1599,12 +1599,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.3,
+          "benzin": 77.9,
+          "dizel": 98.4,
           "lpg": 41.59
         },
         "aytemiz": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.33,
           "lpg": null
         }
@@ -1614,7 +1614,7 @@
       "il": "osmaniye",
       "stations": {
         "opet": {
-          "benzin": 81.29,
+          "benzin": 77.94,
           "dizel": 98.56,
           "lpg": null
         },
@@ -1624,12 +1624,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 42.04
         },
         "aytemiz": {
-          "benzin": 81.27,
+          "benzin": 77.92,
           "dizel": 98.49,
           "lpg": null
         }
@@ -1639,7 +1639,7 @@
       "il": "rize",
       "stations": {
         "opet": {
-          "benzin": 81.33,
+          "benzin": 77.98,
           "dizel": 98.59,
           "lpg": null
         },
@@ -1649,12 +1649,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.31,
+          "benzin": 77.96,
           "dizel": 98.53,
           "lpg": null
         }
@@ -1664,7 +1664,7 @@
       "il": "sakarya",
       "stations": {
         "opet": {
-          "benzin": 80.34,
+          "benzin": 76.99,
           "dizel": 97.37,
           "lpg": null
         },
@@ -1674,12 +1674,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.3,
-          "dizel": 97.3,
+          "benzin": 77,
+          "dizel": 97.4,
           "lpg": 40.5
         },
         "aytemiz": {
-          "benzin": 80.31,
+          "benzin": 76.96,
           "dizel": 97.29,
           "lpg": null
         }
@@ -1689,7 +1689,7 @@
       "il": "samsun",
       "stations": {
         "opet": {
-          "benzin": 81.16,
+          "benzin": 77.81,
           "dizel": 98.39,
           "lpg": null
         },
@@ -1699,12 +1699,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.3,
+          "benzin": 77.9,
+          "dizel": 98.4,
           "lpg": 41.59
         },
         "aytemiz": {
-          "benzin": 81.17,
+          "benzin": 77.82,
           "dizel": 98.32,
           "lpg": null
         }
@@ -1714,7 +1714,7 @@
       "il": "sanliurfa",
       "stations": {
         "opet": {
-          "benzin": 81.73,
+          "benzin": 78.38,
           "dizel": 98.99,
           "lpg": null
         },
@@ -1724,12 +1724,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.7,
-          "dizel": 98.9,
+          "benzin": 78.4,
+          "dizel": 99,
           "lpg": 41.79
         },
         "aytemiz": {
-          "benzin": 81.71,
+          "benzin": 78.36,
           "dizel": 98.9,
           "lpg": null
         }
@@ -1739,7 +1739,7 @@
       "il": "siirt",
       "stations": {
         "opet": {
-          "benzin": 82.09,
+          "benzin": 78.74,
           "dizel": 99.44,
           "lpg": null
         },
@@ -1749,12 +1749,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.1,
-          "dizel": 99.4,
+          "benzin": 78.8,
+          "dizel": 99.5,
           "lpg": 42.04
         },
         "aytemiz": {
-          "benzin": 82.07,
+          "benzin": 78.72,
           "dizel": 99.39,
           "lpg": null
         }
@@ -1764,7 +1764,7 @@
       "il": "sinop",
       "stations": {
         "opet": {
-          "benzin": 81.22,
+          "benzin": 77.87,
           "dizel": 98.45,
           "lpg": null
         },
@@ -1774,12 +1774,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.4,
+          "benzin": 78,
+          "dizel": 98.5,
           "lpg": 41.89
         },
         "aytemiz": {
-          "benzin": 81.26,
+          "benzin": 77.91,
           "dizel": 98.39,
           "lpg": null
         }
@@ -1789,7 +1789,7 @@
       "il": "sirnak",
       "stations": {
         "opet": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.53,
           "lpg": null
         },
@@ -1799,12 +1799,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.1,
-          "dizel": 99.4,
+          "benzin": 78.8,
+          "dizel": 99.5,
           "lpg": 42.35
         },
         "aytemiz": {
-          "benzin": 82.12,
+          "benzin": 78.77,
           "dizel": 99.43,
           "lpg": null
         }
@@ -1814,7 +1814,7 @@
       "il": "sivas",
       "stations": {
         "opet": {
-          "benzin": 81.58,
+          "benzin": 78.23,
           "dizel": 98.81,
           "lpg": null
         },
@@ -1824,12 +1824,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.6,
-          "dizel": 98.8,
+          "benzin": 78.3,
+          "dizel": 98.9,
           "lpg": 41.69
         },
         "aytemiz": {
-          "benzin": 81.57,
+          "benzin": 78.22,
           "dizel": 98.78,
           "lpg": null
         }
@@ -1839,7 +1839,7 @@
       "il": "tekirdag",
       "stations": {
         "opet": {
-          "benzin": 80.29,
+          "benzin": 76.94,
           "dizel": 97.55,
           "lpg": null
         },
@@ -1849,12 +1849,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.3,
-          "dizel": 97.5,
+          "benzin": 77,
+          "dizel": 97.6,
           "lpg": 41.1
         },
         "aytemiz": {
-          "benzin": 80.27,
+          "benzin": 76.92,
           "dizel": 97.49,
           "lpg": null
         }
@@ -1864,7 +1864,7 @@
       "il": "tokat",
       "stations": {
         "opet": {
-          "benzin": 81.22,
+          "benzin": 77.87,
           "dizel": 98.45,
           "lpg": null
         },
@@ -1874,12 +1874,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
+          "benzin": 77.9,
           "dizel": 98.4,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.21,
+          "benzin": 77.86,
           "dizel": 98.39,
           "lpg": null
         }
@@ -1889,7 +1889,7 @@
       "il": "trabzon",
       "stations": {
         "opet": {
-          "benzin": 81.32,
+          "benzin": 77.97,
           "dizel": 98.58,
           "lpg": null
         },
@@ -1899,12 +1899,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.3,
-          "dizel": 98.5,
+          "benzin": 78,
+          "dizel": 98.6,
           "lpg": 41.99
         },
         "aytemiz": {
-          "benzin": 81.31,
+          "benzin": 77.96,
           "dizel": 98.5,
           "lpg": null
         }
@@ -1914,7 +1914,7 @@
       "il": "tunceli",
       "stations": {
         "opet": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.49,
           "lpg": null
         },
@@ -1924,12 +1924,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.4,
+          "benzin": 78.9,
+          "dizel": 99.6,
           "lpg": 42.71
         },
         "aytemiz": {
-          "benzin": 82.14,
+          "benzin": 78.79,
           "dizel": 99.4,
           "lpg": null
         }
@@ -1939,7 +1939,7 @@
       "il": "usak",
       "stations": {
         "opet": {
-          "benzin": 81.34,
+          "benzin": 77.99,
           "dizel": 98.61,
           "lpg": null
         },
@@ -1949,12 +1949,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.4,
-          "dizel": 98.6,
+          "benzin": 78.1,
+          "dizel": 98.7,
           "lpg": 41.3
         },
         "aytemiz": {
-          "benzin": 81.34,
+          "benzin": 77.99,
           "dizel": 98.55,
           "lpg": null
         }
@@ -1964,7 +1964,7 @@
       "il": "van",
       "stations": {
         "opet": {
-          "benzin": 82.16,
+          "benzin": 78.81,
           "dizel": 99.45,
           "lpg": null
         },
@@ -1974,12 +1974,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 82.2,
-          "dizel": 99.4,
+          "benzin": 78.9,
+          "dizel": 99.5,
           "lpg": 42.31
         },
         "aytemiz": {
-          "benzin": 82.17,
+          "benzin": 78.82,
           "dizel": 99.39,
           "lpg": null
         }
@@ -1989,7 +1989,7 @@
       "il": "yalova",
       "stations": {
         "opet": {
-          "benzin": 80.3,
+          "benzin": 76.95,
           "dizel": 97.35,
           "lpg": null
         },
@@ -1999,12 +1999,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.3,
-          "dizel": 97.3,
+          "benzin": 77,
+          "dizel": 97.4,
           "lpg": 40.5
         },
         "aytemiz": {
-          "benzin": 80.28,
+          "benzin": 76.93,
           "dizel": 97.29,
           "lpg": null
         }
@@ -2014,7 +2014,7 @@
       "il": "yozgat",
       "stations": {
         "opet": {
-          "benzin": 81.26,
+          "benzin": 77.91,
           "dizel": 98.51,
           "lpg": null
         },
@@ -2024,12 +2024,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 81.2,
-          "dizel": 98.4,
+          "benzin": 77.9,
+          "dizel": 98.5,
           "lpg": 41.39
         },
         "aytemiz": {
-          "benzin": 81.22,
+          "benzin": 77.87,
           "dizel": 98.43,
           "lpg": null
         }
@@ -2039,7 +2039,7 @@
       "il": "zonguldak",
       "stations": {
         "opet": {
-          "benzin": 80.85,
+          "benzin": 77.5,
           "dizel": 97.9,
           "lpg": null
         },
@@ -2049,12 +2049,12 @@
           "lpg": null
         },
         "po": {
-          "benzin": 80.8,
-          "dizel": 97.8,
+          "benzin": 77.5,
+          "dizel": 97.9,
           "lpg": 41.29
         },
         "aytemiz": {
-          "benzin": 80.81,
+          "benzin": 77.46,
           "dizel": 97.8,
           "lpg": null
         }
